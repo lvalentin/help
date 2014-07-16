@@ -6,7 +6,7 @@ All the doc and help for using Checkmy Website services.
 
 To run in develpoment mode, you need to do the following :
 
-Have a vagrant installation working on your computer an dthen :
+Have a vagrant installation working on your computer and then :
 
 ~~~~
 git clone git@github.com:checkmyws/help.git
