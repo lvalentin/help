@@ -1,0 +1,169 @@
+/* 	
+		http://www.pearsonified.com/typography/
+		http://type-scale.com/
+		http://www.paulirish.com/2009/bulletproof-font-face-implementation-syntax/
+ */
+/*
+
+	modular-scale chosen: 1.333 perfect fourth
+
+ */
+body {
+  line-height: 1.45em;
+  font-family: 'Open Sans', sans-serif -webkit-font-smoothing;
+}
+body : antialiased,
+body color: #333,
+body padding: 0 0 50px,
+body font-weight: 400,
+body font-size:100%,
+body font-style: normal,
+body -webkit-hyphens: auto,
+body -moz-hyphens: auto,
+body -ms-hyphens: auto,
+body -o-hyphens: auto,
+body hyphens: auto,
+body word-wrap: break-word,
+body +below(2) {
+  font-size: 0.85em;
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  body {
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1224px) {
+  body {
+    font-size: 1.1em;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  body {
+    font-size: 1.25em;
+  }
+}
+p {
+  margin: 0 0 1.6em 0;
+}
+h1 {
+  font-size: 3.157em;
+  margin-top: 0;
+  line-height: 1.095em;
+  margin: 0.762em;
+}
+h2 {
+  font-size: 2em;
+  line-height: 1.2em;
+  margin: 2em 0 0.5em 0;
+}
+h3 {
+  font-size: 1.777em;
+  line-height: 1.2em;
+  margin: 2.462em 0 0.615em 0;
+}
+h4 {
+  font-size: 1.333em;
+  line-height: 1.2em;
+}
+ul {
+  font-size: 1.25em;
+  line-height: 1.6;
+  margin: 0 0 1.6em 3.2em;
+  list-style: disc outside;
+}
+ul.level2 {
+  font-size: 1em;
+  margin-left: 1.75em;
+  list-style-type: circle;
+}
+ol {
+  font-size: 1.25em;
+  line-height: 1.6em;
+  margin: 0 0 1.6em 3.2em;
+  list-style: decimal outside;
+}
+blockquote {
+  margin: 3em 0 3em 4em;
+}
+p.quote {
+  line-height: 1.7;
+}
+blockquote.pquote {
+  text-align: center;
+  margin: 3em -100px;
+}
+p.pquote {
+  font-size: 1.625em;
+  line-height: 1.667em;
+}
+a {
+  color: #444;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  outline: 0;
+  cursor: pointer;
+}
+a:visited {
+  color: #444;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  outline: 0;
+}
+a:hover {
+  border-bottom: none;
+}
+a:active {
+  border-bottom: none;
+}
+a:focus {
+  border-bottom: none;
+}
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: 700;
+}
+small {
+  font-size: 75%;
+}
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+/**
+ *
+ * =======================================================================
+	 Hyphens
+ * =======================================================================
+ */
+abbr,
+acronym,
+blockquote,
+code,
+dir,
+kbd,
+listing,
+plaintext,
+q,
+samp,
+tt,
+var,
+xmp {
+/* Accepted values: [ none | manual | auto ] */
+/* http://meyerweb.com/eric/thoughts/2012/12/17/where-to-avoid-css-hyphenation */
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -o-hyphens: none;
+  hyphens: none;
+}

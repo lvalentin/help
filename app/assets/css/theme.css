@@ -1,0 +1,26 @@
+article img {
+  max-width: 100%;
+  margin-bottom: 1.5em;
+}
+main {
+  background-color: #fff;
+}
+body {
+  background-image: url("../img/css/background.png");
+}
+css .navbar-default .navbar-nav > li > a {
+  color: $font-color-light;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.25);
+}
+css .navbar-default .navbar-nav > li > a:active {
+  color: $color4;
+}
+css .navbar-default .navbar-nav > li > a:hover {
+  color: $color4;
+}
+css .navbar-default .navbar-nav > .active > a {
+  border-bottom: thick solid $color4;
+}
+css .navbar-default .navbar-nav > .active > a:focus {
+  background-color: inherit;
+}

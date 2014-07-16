@@ -1,0 +1,129 @@
+@media only screen and (min-width: 1024px) {
+  aside site {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    padding-left: 0;
+    padding-right: 0;
+    width: 31.3333333333333%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  aside site:before,
+  aside site:after {
+    content: '';
+    display: table;
+  }
+  aside site:after {
+    clear: both;
+  }
+  aside site:last-child {
+    margin-right: 0%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  article {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    padding-left: 0;
+    padding-right: 0;
+    width: 65.6666666666667%;
+    margin-left: 0%;
+    margin-right: 3%;
+    max-width: 728px;
+  }
+  article:before,
+  article:after {
+    content: '';
+    display: table;
+  }
+  article:after {
+    clear: both;
+  }
+  article:last-child {
+    margin-right: 0%;
+  }
+}
+footer {
+  display: block;
+  clear: both;
+  float: none;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer:first-child {
+  margin-left: auto;
+}
+footer:last-child {
+  margin-right: auto;
+}
+main {
+  padding-left: 1em;
+  padding-right: 1em;
+  *zoom: 1;
+  width: auto;
+  max-width: 90%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+main:before,
+main:after {
+  content: '';
+  display: table;
+}
+main:after {
+  clear: both;
+}
+@media only screen and (min-width: 1524px) {
+  main {
+    *zoom: 1;
+    width: auto;
+    max-width: 1224px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main:before,
+  main:after {
+    content: '';
+    display: table;
+  }
+  main:after {
+    clear: both;
+  }
+}
+@media only screen and (min-width: 768px) {
+  aside article {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    padding-left: 0;
+    padding-right: 0;
+    width: 22.75%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  aside article:before,
+  aside article:after {
+    content: '';
+    display: table;
+  }
+  aside article:after {
+    clear: both;
+  }
+  aside article:last-child {
+    margin-right: 0%;
+  }
+}

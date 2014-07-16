@@ -1,0 +1,166 @@
+/* 	
+		http://www.pearsonified.com/typography/
+		http://type-scale.com/
+		http://www.paulirish.com/2009/bulletproof-font-face-implementation-syntax/
+ */
+
+ /*
+
+	modular-scale chosen: 1.333 perfect fourth
+
+ */
+
+scale = 0 320px 480px 768px 1024px 1224px 1824px
+
+h1-size = 3.157em
+h2-size = 2em
+h3-size = 1.777em
+h4-size = 1.333em
+
+body
+	line-height: 1.45em
+	font-family: 'Open Sans', sans-serif -webkit-font-smoothing: antialiased
+	color: #333
+	padding: 0 0 50px
+	font-weight: 400
+	font-size:100%
+	font-style: normal
+	-webkit-hyphens: auto
+	-moz-hyphens: auto
+	-ms-hyphens: auto
+	-o-hyphens: auto
+	hyphens: auto
+	word-wrap: break-word
+	+below(2)
+		font-size:0.85em /* 14px */
+	+between(3, 4)
+		font-size:1em /* 16px */
+	+between(4, 5)
+		font-size:1.1em /* 18px */	
+	+above(6)
+		font-size:1.25em /* 20px */
+
+p
+	margin: 0 0 1.6em 0
+
+h1
+	font-size: h1-size
+	margin-top:0
+	line-height: 1.095em
+	margin: 0.762em
+
+h2
+	font-size: h2-size
+	line-height: 1.2em
+	margin: 2em 0 0.5em 0
+
+h3
+	font-size: h3-size
+	line-height: 1.2em
+	margin: 2.462em 0 0.615em 0
+
+h4
+	font-size: h4-size
+	line-height: 1.2em
+
+ul
+	font-size: 1.25em
+	line-height: 1.6
+	margin: 0 0 1.6em 3.2em
+	list-style: disc outside
+
+ul.level2
+	font-size: 1em
+	margin-left: 1.75em
+	list-style-type: circle
+
+ol
+	font-size: 1.25em
+	line-height: 1.6em
+	margin: 0 0 1.6em 3.2em
+	list-style: decimal outside
+
+blockquote
+	margin: 3em 0 3em 4em
+
+p.quote
+	line-height: 1.7
+
+blockquote.pquote
+	text-align: center
+	margin: 3em -100px
+
+p.pquote
+	font-size: 1.625em
+	line-height: 1.667em
+
+a
+	color: #444
+	text-decoration: none
+	border-bottom: 1px solid #000
+	outline: 0
+	cursor: pointer
+
+a:visited
+	color: #444
+	text-decoration: none
+	border-bottom: 1px solid #000
+	outline: 0
+
+a:hover
+	border-bottom: none
+
+a:active
+	border-bottom: none
+
+a:focus
+	border-bottom: none
+
+em
+	font-style: italic
+
+strong
+	font-weight:700
+
+small
+	font-size: 75%
+
+sub
+	font-size: 75%
+	line-height: 0
+	position: relative
+	vertical-align: baseline
+
+sup
+	font-size: 75%
+	line-height: 0
+	position: relative
+	vertical-align: baseline
+	top: -0.5em
+
+/**
+ *
+ * =======================================================================
+	 Hyphens
+ * =======================================================================
+ */
+
+abbr,
+acronym,
+blockquote,
+code,
+dir,
+kbd,
+listing,
+plaintext,
+q,
+samp,
+tt,
+var,
+xmp
+	/* Accepted values: [ none | manual | auto ] */ /* http://meyerweb.com/eric/thoughts/2012/12/17/where-to-avoid-css-hyphenation */
+	-webkit-hyphens: none /* Safari 5.1 thru 6, iOS 4.2 thru 6 */
+	-moz-hyphens: none /* Firefox 16 thru 20 */
+	-ms-hyphens: none /* IE10 */
+	-o-hyphens: none /* PRESTO...haha LOL */
+	hyphens: none	 /* W3C standard */

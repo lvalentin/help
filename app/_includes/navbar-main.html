@@ -1,0 +1,8 @@
+<header class="header-navbar">
+ 	<h1>{{ site.name }}</h1>
+	<ul class="nav navbar-nav naver">
+	<li{% if page.url contains "/doc/" %} class="active"{% endif %}><a href="/doc/" title="Documentation, howtos, guides, didacticiels…">DOC</a></li>
+    <li{% if page.url contains "/archives/" %} class="active"{% endif %}><a href="/archives/" title="Tous les billets, articles de Wooster sur une seule page…">ARCHIVES</a></li>
+	<li{% if page.url == "/about/index.html" %} class="active"{% endif %}><a href="/about/" title="À propos de Wooster & Check my Website">À PROPOS</a></li>
+					</ul>
+</header>

@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Questions fréquentes"
+lead: "Pour toutes les questions."
+locale: "fr"
+---
+
+
+{{ page.lead }}
+
+{% for faq in site.faqs %}
+{% if faq.locale == "fr" %}
+    {{ faq.question }}
+    {{ faq.locale }}
+    {{ faq.content | markdownify }}
+   {% endif %}
+{% endfor %}

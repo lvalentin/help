@@ -1,0 +1,35 @@
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
+
+name: help.checkmy.ws
+description: site support
+author:
+  name: olivier
+  email: help@checkmy.ws
+
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+include: ['.htaccess']
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+permalink: none
+paginate: 12
+paginate_path: 'page:num'
+
+# Markdown library
+markdown: redcarpet
+  # extensions: ['fenced_code_blocks', 'smart']
+
+highlighter: null
+
+collections:
+  output: false
+  faqs:
+    description: "Toutes les faqs"

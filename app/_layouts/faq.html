@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% if page.locale == "fr" %}
+  {% assign name = "en français" %}
+{% elsif page.locale == "en" %}
+  {% assign name = "in english" %}
+{% endif %}
+
+
+{{ page.lead }}
+{{ name }}
+
+{% for faq in site.faqs %}
+{% if faq.locale == page.locale %}
+    {{ faq.question }}
+    {{ faq.locale }}
+    {{ faq.content | markdownify }}
+   {% endif %}
+{% endfor %}
