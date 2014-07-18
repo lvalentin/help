@@ -10,7 +10,7 @@ tags:
 - opensource
 author: Olivier Jan
 post_img : timeolite.jpg
-locale: "fr"
+locale: "en"
 lead: "Profitons de la sortie de Nginx 1.7 qui permet de journaliser dans Syslog pour envoyer accès et erreurs à ELK."
 ---
 

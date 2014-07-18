@@ -34,4 +34,4 @@ collections:
     output: false
   refs:
     output: true
-    permalink: /ref/:path/
+    permalink: /:path/

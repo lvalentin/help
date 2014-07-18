@@ -10,7 +10,7 @@ tags:
 - checkmyws
 author: Olivier Jan
 post_img : atom-puzzle.jpg
-locale: "fr"
+locale: "en"
 lead: "Étude de quelques exemples concrets de manipulation des headers dans la console Check my Website."
 ---
 
