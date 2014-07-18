@@ -9,7 +9,11 @@ locale: "en"
 
 Wooster est un blog, un magazine traitant de tout ce qui peut permettre à votre site, application, service web d'être "[harder, faster, stronger](http://www.youtube.com/watch?v=PsO6ZnUZI0g)". En clair et dans la langue de Molière, un site **plus rapide, plus disponible, plus sûr, plus agréable pour vos visiteurs**, plus, plus… ! 
 
-Wooster est une expression que nous avons inventée à cet effet: **Woost**. Vous woostez quand vous b**oost**ez votre site **w**eb. Wooster a ouvert ses portes le *20 novembre 2013*.
+*Wooster est une expression* que nous avons inventée à cet effet: **Woost**. Vous woostez quand vous b**oost**ez votre site **w**eb. Wooster a ouvert ses portes le *20 novembre 2013*.
+
+- premier
+- deuxième
+- troisième
 
 ## Check my Website ?
 
@@ -28,6 +32,40 @@ Vous pourrez également retrouver régulièrement **des nouvelles sur les servic
 ### Pourquoi des visuels « vintage » ?
 
 Même un blog orienté contenu textuel comme Wooster se doit de nos jours d'avoir des visuels pour égayer ses pages. 
+
+<pre><code class="language-text" data-lang="text">var links = [];
+var casper = require(&#39;casper&#39;).create();
+
+function getLinks() {
+    var links = document.querySelectorAll(&#39;h3.r a&#39;);
+    return Array.prototype.map.call(links, function(e) {
+        return e.getAttribute(&#39;href&#39;);
+    });
+}
+
+casper.start(&#39;http://google.fr/&#39;, function() {
+    // search for &#39;casperjs&#39; from google form
+    this.fill(&#39;form[action=&quot;/search&quot;]&#39;, { q: &#39;casperjs&#39; }, true);
+});
+
+casper.then(function() {
+    // aggregate results for the &#39;casperjs&#39; search
+    links = this.evaluate(getLinks);
+    // now search for &#39;phantomjs&#39; by filling the form again
+    this.fill(&#39;form[action=&quot;/search&quot;]&#39;, { q: &#39;phantomjs&#39; }, true);
+});
+
+casper.then(function() {
+    // aggregate results for the &#39;phantomjs&#39; search
+    links = links.concat(this.evaluate(getLinks));
+});
+
+casper.run(function() {
+    // echo results in some pretty fashion
+    this.echo(links.length + &#39; links found:&#39;);
+    this.echo(&#39; - &#39; + links.join(&#39;\n - &#39;)).exit();
+});
+</code></pre>
 
 Alors plutôt que d'illustrer nos billets et articles d'images « passe partouts », nous avons pris le parti d'illustrer nos billets avec des **objets, personnages venant d'années où l'avenir rempli de robots et de mécaniques était vu comme le fantasme** ultime d'une société en pleine évolution… 
 

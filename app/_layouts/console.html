@@ -11,10 +11,9 @@ layout: page
 
 <p class="jumbotron">{{ page.lead }}</p>
 
-{% for faq in site.faqs %}
-{% if faq.locale == page.locale %}
-    <h2>{{ faq.question }}</h2>
-    {{ faq.locale }}
-    {{ faq.content | markdownify }}
+{% for article in site.console %}
+{% if article.locale == page.locale %}
+    <h2>{{ article.title }}</h2>
+    {{ article.locale }}
    {% endif %}
 {% endfor %}

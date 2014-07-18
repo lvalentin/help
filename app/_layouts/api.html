@@ -9,12 +9,13 @@ layout: page
 {% endif %}
 
 
-<p class="jumbotron">{{ page.lead }}</p>
+{{ page.lead }}
+{{ name }}
 
-{% for faq in site.faqs %}
-{% if faq.locale == page.locale %}
-    <h2>{{ faq.question }}</h2>
-    {{ faq.locale }}
-    {{ faq.content | markdownify }}
+{% for article in site.api %}
+{% if article.locale == page.locale %}
+    {{ article.title }}
+    {{ article.locale }}
+    {{ article.content | markdownify }}
    {% endif %}
 {% endfor %}

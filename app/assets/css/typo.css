@@ -8,36 +8,38 @@
 	modular-scale chosen: 1.333 perfect fourth
 
  */
+/* breakpoints from consice framework */
 body {
   line-height: 1.45em;
-  font-family: 'Open Sans', sans-serif -webkit-font-smoothing;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  padding: 0 0 50px;
+  font-weight: 400;
+  font-size: 100%;
+  font-style: normal;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
 }
-body : antialiased,
-body color: #333,
-body padding: 0 0 50px,
-body font-weight: 400,
-body font-size:100%,
-body font-style: normal,
-body -webkit-hyphens: auto,
-body -moz-hyphens: auto,
-body -ms-hyphens: auto,
-body -o-hyphens: auto,
-body hyphens: auto,
-body word-wrap: break-word,
-body +below(2) {
-  font-size: 0.85em;
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 0.85em;
+  }
 }
-@media only screen and (min-width: 480px) and (max-width: 1024px) {
+@media only screen and (min-width: 480px) and (max-width: 960px) {
   body {
     font-size: 1em;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1224px) {
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
   body {
     font-size: 1.1em;
   }
 }
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1120px) {
   body {
     font-size: 1.25em;
   }
@@ -46,23 +48,31 @@ p {
   margin: 0 0 1.6em 0;
 }
 h1 {
-  font-size: 3.157em;
+  font-size: 2.441em;
   margin-top: 0;
   line-height: 1.095em;
   margin: 0.762em;
 }
 h2 {
-  font-size: 2em;
+  font-size: 1.953em;
   line-height: 1.2em;
   margin: 2em 0 0.5em 0;
 }
 h3 {
-  font-size: 1.777em;
+  font-size: 1.563em;
   line-height: 1.2em;
   margin: 2.462em 0 0.615em 0;
 }
 h4 {
-  font-size: 1.333em;
+  font-size: 1.25em;
+  line-height: 1.2em;
+}
+h5 {
+  font-size: 1em;
+  line-height: 1.2em;
+}
+h6 {
+  font-size: 0.8em;
   line-height: 1.2em;
 }
 ul {

@@ -10,16 +10,19 @@
 
  */
 
-scale = 0 320px 480px 768px 1024px 1224px 1824px
+/* breakpoints from consice framework */
+scale = 0 480px 768px 960px 1120px 1280px
 
-h1-size = 3.157em
-h2-size = 2em
-h3-size = 1.777em
-h4-size = 1.333em
+h1-size = 2.441em
+h2-size = 1.953em
+h3-size = 1.563em
+h4-size = 1.25em
+h5-size = 1em
+h6-size = 0.8em
 
 body
 	line-height: 1.45em
-	font-family: 'Open Sans', sans-serif -webkit-font-smoothing: antialiased
+	font-family: 'Open Sans', sans-serif
 	color: #333
 	padding: 0 0 50px
 	font-weight: 400
@@ -31,13 +34,13 @@ body
 	-o-hyphens: auto
 	hyphens: auto
 	word-wrap: break-word
-	+below(2)
+	+below(1)
 		font-size:0.85em /* 14px */
-	+between(3, 4)
+	+between(2, 3)
 		font-size:1em /* 16px */
 	+between(4, 5)
 		font-size:1.1em /* 18px */	
-	+above(6)
+	+above(5)
 		font-size:1.25em /* 20px */
 
 p
@@ -61,6 +64,14 @@ h3
 
 h4
 	font-size: h4-size
+	line-height: 1.2em
+
+h5
+	font-size: h5-size
+	line-height: 1.2em
+
+h6
+	font-size: h6-size
 	line-height: 1.2em
 
 ul

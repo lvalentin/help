@@ -2,63 +2,46 @@
 layout: default
 ---
 
-<article>
-  <header>
-		<h1>{{ page.title }}</h1>
+<div class="row">
+    <div class="col-sm-3">
 
-  <!-- 320px 480px 768px 1024px 1224px 1524px -->        
-  <picture>
-  <!--[if IE 9]><video style="display: none;"><![endif]-->
-  <source srcset="http://placekitten.com/1000/400" media="(min-width: 1224px)">
-  <source srcset="http://placekitten.com/900/300" media="(min-width: 1024px)">
-  <source srcset="http://placekitten.com/800/400" media="(min-width: 768px)">
-  <source srcset="http://placekitten.com/500/300" media="(min-width: 480px)">
-  <source srcset="http://placekitten.com/320/240">
-  <!--[if IE 9]></video><![endif]-->
-  <img srcset="http://placekitten.com/400/200" alt="Les jolis chats">
-  </picture>
+        <ul class="menu">
+        {{#pages}}
+            {{#is_index}}
+                {{#files}}
+                    <li class="page{{#active}} active{{/active}}"><a href="/{{slug}}">{{title}}</a></li>
+                {{/files}}
+            {{/is_index}}
+            {{^is_index}}
+            <li class="category">
+                <h5 class="category-title">{{title}}</h5>
+                <ul class="pages">
+                {{#files}}
+                    <li class="page{{#active}} active{{/active}}"><a href="/{{slug}}">{{title}}</a></li>
+                {{/files}}
+                </ul>
+            </li>
+            {{/is_index}}
+        {{/pages}}
+        </ul>
 
-		<p class="meta">{{ page.locale }}</p>
-	</header>
-  <section>
-    {{ content }}
-  </section>
-            <aside class="aside-article">
-      <div id="responsiveAsideArticles">
-        <ul>
-        <li><a href="#tab-related">Article Related</a></li>
-        <li><a href="#tab-latest">Article Latest</a></li>
-      </ul>
+    </div>
+    <div class="col-sm-9">
 
+        <section class="content">
+            <h1 class="title">{{page.title}}</h1>
 
-      <div id="tab-related">
-        <section id="related-pages" class="tabs">		
-          {% include article-teaser.html %}
+            {{ content }}
 
-          {% include article-teaser.html %}
-
-          {% include article-teaser.html %}
-
-          {% include article-teaser.html %}
-
+            <div class="page-meta clearfix">
+                <div class="contact-support pull-left">
+                    <span class="glyphicon glyphicon-envelope"></span> Still need help? <a href="mailto:{{site.support_email}}">Get in touch!</a>
+                </div>
+                <div class="last-updated pull-right">
+                    Last updated on {{ page.updated }}
+                </div>
+            </div>
         </section>
-      </div>
-      <div id="tab-latest">
-        <section id="latest-pages" class="tabs">
-          {% include article-teaser.html %}
 
-          {% include article-teaser.html %}
-
-          {% include article-teaser.html %}
-
-          {% include article-teaser.html %}
-        </section>
-      </div> 
-  
-
-      </div> 
-        </aside>
-  <footer>
-  	<h2>Article footer</h2>
-  </footer>
-</article>
+    </div>
+</div>

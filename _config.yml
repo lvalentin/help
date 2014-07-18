@@ -4,10 +4,12 @@
 # 3. config.yml
 
 name: help.checkmy.ws
-description: site support
+description: site de support de Checkmy Website
 author:
   name: olivier
   email: help@checkmy.ws
+
+support_email: help@checkmy.ws
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
@@ -32,6 +34,9 @@ highlighter: null
 collections:
   faqs:
     output: false
-  refs:
+  api:
     output: true
-    permalink: /:path/
+  howtos:
+    output: true
+  console:
+    output: true
