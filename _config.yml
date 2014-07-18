@@ -30,6 +30,8 @@ markdown: redcarpet
 highlighter: null
 
 collections:
-  output: false
   faqs:
-    description: "Toutes les faqs"
+    output: false
+  refs:
+    output: true
+    permalink: /ref/:path/
