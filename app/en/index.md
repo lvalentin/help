@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Sommaire in english"
+locale: "en"
 ---
 
 <ul>

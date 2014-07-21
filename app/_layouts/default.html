@@ -1,10 +1,16 @@
+{% if page.locale == "fr" %}
+  {% assign description = "Site de support du service Check my Website" %}
+{% elsif page.locale == "en" %}
+  {% assign description = "Check my Website support and help center" %}
+{% endif %}
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ site.description }} - {{ site.name }}</title>
-  {{#meta.description}}<meta name="description" content="{{meta.description}}">{{/meta.description}}
+  <title>{{ description }} - {{ site.name }}</title>
+  <meta name="description" content="{{description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="shortcut icon" href="/favicon.ico">
@@ -12,7 +18,6 @@
   <link rel="stylesheet" href="/_bower_components/highlightjs/styles/solarized_light.css">
   <link rel="stylesheet" href="/assets/css/raneto.css">
 
-  {{{config.analytics}}}
 </head>
 <body class="{{body_class}}">
 
@@ -45,9 +50,7 @@
   <footer class="footer">
     <div class="container-fluid">
 
-      {{#config.copyright}}
-      <p class="copyright pull-right">{{{config.copyright}}}</p>
-      {{/config.copyright}}
+      <p class="copyright pull-right">© Novateek - 2014</p>
 
     </div>
   </footer>

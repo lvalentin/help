@@ -14,7 +14,6 @@ layout: page
 {% for faq in site.faqs %}
 {% if faq.locale == page.locale %}
     <h2>{{ faq.question }}</h2>
-    {{ faq.locale }}
-    {{ faq.content | markdownify }}
+    <p>{{ faq.content | markdownify }}</p>
    {% endif %}
 {% endfor %}

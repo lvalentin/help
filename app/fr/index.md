@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Sommaire en français"
+locale: "fr"
 ---
 
 
