@@ -13,7 +13,8 @@ layout: page
 
 {% for article in site.console %}
 {% if article.locale == page.locale %}
-    <h2>{{ article.title }}</h2>
-    {{ article.locale }}
+	<ul>
+    	<li class="pages"><a href="{{ article.permalink }}">{{ article.title }}</a><p>{{ article.lead }}</p></li>
+    </ul>
    {% endif %}
 {% endfor %}
