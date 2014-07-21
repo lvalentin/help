@@ -2,40 +2,28 @@
 layout: default
 ---
 
+{% if page.locale == "fr" %}
+  {% assign help = "Toujours besoin d'aide ? <a href='mailto:{{ site.support_email }}'>Prenez contact !</a>" %}
+{% elsif page.locale == "en" %}
+  {% assign help = "Still need help? <a href='mailto:{{ site.support_email }}'>Get in touch!</a>" %}
+{% endif %}
+
 <div class="row">
     <div class="col-sm-3">
 
-        <ul class="menu">
-        {{#pages}}
-            {{#is_index}}
-                {{#files}}
-                    <li class="page{{#active}} active{{/active}}"><a href="/{{slug}}">{{title}}</a></li>
-                {{/files}}
-            {{/is_index}}
-            {{^is_index}}
-            <li class="category">
-                <h5 class="category-title">{{title}}</h5>
-                <ul class="pages">
-                {{#files}}
-                    <li class="page{{#active}} active{{/active}}"><a href="/{{slug}}">{{title}}</a></li>
-                {{/files}}
-                </ul>
-            </li>
-            {{/is_index}}
-        {{/pages}}
-        </ul>
+        {% include menu.html %}
 
     </div>
     <div class="col-sm-9">
 
         <section class="content">
-            <h1 class="title">{{page.title}}</h1>
+            <h1 class="title">{{ page.title }}</h1>
 
             {{ content }}
 
             <div class="page-meta clearfix">
                 <div class="contact-support pull-left">
-                    <span class="glyphicon glyphicon-envelope"></span> Still need help? <a href="mailto:{{site.support_email}}">Get in touch!</a>
+                    <span class="glyphicon glyphicon-envelope"></span> {{ help }}
                 </div>
                 <div class="last-updated pull-right">
                     Last updated on {{ page.updated }}
