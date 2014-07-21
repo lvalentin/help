@@ -18,7 +18,7 @@ The documentation is divided in four parts :
 
 <dl>
 <dt>Website</dt>
-<dd>It is an adress beginning with `HTTP` or `HTTPS` and corresponds to the minimal entity that you can check, monitor with the Check my Website service.</dd>
+<dd>A location on the World Wide Web that maintains one or more pages at a specific address. It's now recommanded to write it in one word; just like webmaster or webcam. Here at Check my Website, it is an address beginning with <code>HTTP</code> or <code>HTTPS</code> and corresponds to <em>the minimal entity that you can check, monitor with the Check my Website service</em>.</dd>
 <dt>Web page</dt>
 <dd>Same as website</dd>
 <dt>URL, URI</dt>
@@ -28,3 +28,5 @@ The documentation is divided in four parts :
 ## Convention
 
 Console, technical words, menus and keyboard shortcuts are `highlighted`.
+
+When buttons are dimmed in the console, it indicates that the function is not available.
