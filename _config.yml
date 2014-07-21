@@ -40,3 +40,6 @@ collections:
     output: true
   console:
     output: true
+
+gems:
+  - jekyll-sitemap
