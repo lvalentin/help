@@ -1,0 +1,15 @@
+---
+sharing: true
+comments: true
+layout: page
+title:  "Welcome screen"
+date:   2014-06-12 08:00:00 +0100
+locale: "en"
+permalink: /en/console/welcome/
+lead: "The welcome screen is displayed automatically when you first login into the console."
+weight: "0012"
+---
+
+The welcome screen is located at [http://console.checkmy.ws/#/welcome](http://console.checkmy.ws/#/welcome)
+
+![Check my Website console welcome screen](/assets/img/fullsize/console/welcome-screen.png)

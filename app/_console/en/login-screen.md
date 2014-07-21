@@ -6,13 +6,13 @@ title:  "Login screen"
 date:   2014-06-12 08:00:00 +0100
 locale: "en"
 permalink: /en/console/login-screen/
-lead: "The login screen is where all begin. Here, you can create an account, access an account or reset password"
+lead: "The login screen is where all begin. Here, you can create an account, access an account or reset a password"
 weight: "001"
 ---
 
 The login screen can always be found at [https://console.checkmy.ws](https://console.checkmy.ws.)
 
-![image](/assets/img/fullsize/console/login-screen.png)
+![Check my Website console login screen](/assets/img/fullsize/console/login-screen.png)
 
 ## Sign up
 
@@ -22,8 +22,43 @@ Once signing in, you have complete access to all Check my Website services for 3
 
 Go to [price page](http://www.checkmy.ws/pricing/) to check available plans and options.
 
+To sign up, choose a `Login` and a `Password` and click `Sign up`. An `E-mail` field is then displayed. Fill it with a valid e-mail address and click the checkbox under to accept terms and conditions of the service. Click `Sign up` to finish the process.
+
+![Check my Website console sign up email](/assets/img/fullsize/console/login-email.png)
+
+Once the combinaison of the `Login`, `Password` and `E-mail` are valid, you have immediate access to the console [welcome screen](/en/console/welcome/screen/) and can start [monitoring your first website](/en/howtos/website-monitoring/).
+
+If the `Login` is already taken, an alert box like this one is displayed
+
+![Check my Website console invalid or already taken login](/assets/img/fullsize/console/login-invalid.png)
+
+### Sign up with a social account
+
 **You can't sign up with a social account for now ! Time will come…**
 
 ## Log in
 
+Fill the `Login` and `Password` fields with your `Login` and `Password` « the ones you choose on sign up » and then click `Log in`.
+
+Icons on the left of the two fileds are changing regarding the information you enter.
+
+- **Red color** to indicate that your `Login` or `Password` is invalid.
+- **Green color** to indicate that everything is OK.
+
+![Check my Website console invalid data on login](/assets/img/fullsize/console/invalid-data.png)
+
+### Personal icon aka Gravater
+
+If you want to have a nice picture of you dsplayed in the top right corner of the console, you can do so by creating an account at [gravatar.com](https://en.gravatar.com/).
+
+> Your Gravatar is an image that follows you from site to site appearing beside your name when you do things like comment or post on a blog. Avatars help identify your posts on blogs and web forums, so why not on any site?
+
 ## Reset Password
+
+In case you forgot your password, click `Forgot password?` The screen below is then displayed.
+
+![Check my Website console forgot password](/assets/img/fullsize/console/reset-password.png)
+
+Just enter the email you used when signing up, click `Submit` and we'll send you a token to reset your password.
+
+![Check my Website console token e-mail](/assets/img/fullsize/console/token-sent.png)

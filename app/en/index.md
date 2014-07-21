@@ -5,7 +5,7 @@ locale: "en"
 lead: "Welcome to the english version of the Check my Website service documentation."
 ---
 
-## Here's what you can find here
+## What can you find here ?
 
 The documentation is divided in four parts : 
 
@@ -24,3 +24,7 @@ The documentation is divided in four parts :
 <dt>URL, URI</dt>
 <dd>Same as website</dd>
 </dl>
+
+## Convention
+
+Console, technical words, menus and keyboard shortcuts are `highlighted`.
