@@ -10,10 +10,10 @@
     <h5 class="category-title">Howtos</h5>
     {% if page.url contains "/howtos" %}
     <ul class="pages">
-      {% assign sorted_articles = site.console | sort: 'weight' %}
-      {% for howto in sorted_articles %}
-        {% if howto.locale == page.locale %}
-          <li class="page"><a href="{{ howto.permalink }}">{{ how.title }}</a></li>
+      {% assign sorted_articles = site.howtos | sort: 'title' %}
+      {% for article in sorted_articles %}
+        {% if article.locale == page.locale %}
+          <li class="page"><a href="{{ article.permalink }}">{{ article.title }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>
@@ -38,7 +38,7 @@
     <h5 class="category-title">API</h5>
     {% if page.url contains "/api" %}
     <ul class="pages">
-      {% assign sorted_articles = site.api | sort: 'weight' %}
+      {% assign sorted_articles = site.api %}
       {% for article in sorted_articles %}
         {% if article.locale == page.locale %}
           <li class="page"><a href="{{ article.permalink }}">{{ article.title }}</a></li>
