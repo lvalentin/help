@@ -9,12 +9,10 @@ layout: page
 {% endif %}
 
 
-<p class="jumbotron">{{ page.lead }}</p>
-
 {% for article in site.console %}
 {% if article.locale == page.locale %}
-	<ul>
+	<ol>
     	<li class="pages"><a href="{{ article.permalink }}">{{ article.title }}</a><p>{{ article.lead }}</p></li>
-    </ul>
+    </ol>
    {% endif %}
 {% endfor %}
