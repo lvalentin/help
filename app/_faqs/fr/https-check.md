@@ -1,5 +1,5 @@
 ---
-question: "Est-il possible de contrôler un site web sécuriséé ?"
+question: "Est-il possible de contrôler un site web sécurisé ?"
 category: "check"
 locale: "fr"
 ---
