@@ -26,11 +26,11 @@ In fact, the global overview is just these 6 badges located under the navigation
 
 ![Check my Website console global overview](/assets/img/fullsize/en/console/overview/global-overview.png)
 
-- The *green* one gives you the number of websites in [`OK` state](/en/#ok-state).
-- The *yellow, orange* one gives you the number of websites in [`Warning` state](/en/#warning-state).
-- The *red* one gives you the number of websites in [`Critical` state](/en/#critical-state).
-- The *blue* one gives you the number of websites in [`Pending` state](/en/#pending-state)).
-- The *grey* one gives you the number of websites in [`Unknown` state](/en/#unknown-state).
+- The *green* one gives you the number of websites in [`OK` state](/en/terms-definitions/#ok-state).
+- The *yellow, orange* one gives you the number of websites in [`Warning` state](/en/terms-definitions/#warning-state).
+- The *red* one gives you the number of websites in [`Critical` state](/en/terms-definitions/#critical-state).
+- The *blue* one gives you the number of websites in [`Pending` state](/en/terms-definitions/#pending-state)).
+- The *grey* one gives you the number of websites in [`Unknown` state](/en/terms-definitions/#unknown-state).
 
 Clicking on one of these badges filter the [navigation](/en/console/menu-navigation/) by state, showing only websites in the clicked state.
 
@@ -54,10 +54,10 @@ The top 5 gives you a list of your 5 websites performing the best for differents
 
 ### Top five uptime
 
-On the left, you can find the top 5 [uptime](/en/#uptime) websites. These are the ones whose are in OK state for the most longest strike. One month fot the best one in the example screen.
+On the left, you can find the top 5 [uptime](/en/terms-definitions/#uptime) websites. These are the ones whose are in OK state for the most longest strike. One month fot the best one in the example screen.
 
 ### Top five response time
 
-On the right, you can find the top 5 [response time](/en/#response-time). These ones are responding the fastest from all the websites you monitor. **41ms** for the fastest in the example screen. 
+On the right, you can find the top 5 [response time](/en/terms-definitions/#response-time). These ones are responding the fastest from all the websites you monitor. **41ms** for the fastest in the example screen. 
 
 <p class="alert alert-warning" role="alert">It <strong>does not</strong> mean that they are the fastest to load in the browser.</p>
