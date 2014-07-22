@@ -1,0 +1,5 @@
+- word: Uptime
+  definition: 'The time during which a machine or piece of equipment, as a computer, a server or website is operating or can be operated.'
+
+- word: Availability
+  definition: 'In general, this is the characteristic of a resource that is committable, operable, or usable upon demand to perform its designated or required function. It is the aggregate of the resource’s accessibility, reliability, maintainability, serviceability, and securability. For computers and websites, this the percentage of time a system is available for use. Formula: Uptime x 100 ÷ (Uptime + Downtime).'

@@ -12,7 +12,7 @@ weight: "001"
 
 The login screen can always be found at [https://console.checkmy.ws](https://console.checkmy.ws.)
 
-![Check my Website console login screen](/assets/img/fullsize/console/login-screen.png)
+![Check my Website console login screen](/assets/img/fullsize/en/console/login/login-screen.png)
 
 ## Sign up
 
@@ -24,13 +24,13 @@ Go to [price page](http://www.checkmy.ws/pricing/) to check available plans and 
 
 To sign up, choose a `Login` and a `Password` and click `Sign up`. An `E-mail` field is then displayed. Fill it with a valid e-mail address and click the checkbox under to accept terms and conditions of the service. Click `Sign up` to finish the process.
 
-![Check my Website console sign up email](/assets/img/fullsize/console/login-email.png)
+![Check my Website console sign up email](/assets/img/fullsize/en/console/login/login-email.png)
 
 Once the combinaison of the `Login`, `Password` and `E-mail` are valid, you have immediate access to the console [welcome screen](/en/console/welcome/screen/) and can start [monitoring your first website](/en/howtos/website-monitoring/).
 
 If the `Login` is already taken, an alert box like this one is displayed
 
-![Check my Website console invalid or already taken login](/assets/img/fullsize/console/login-invalid.png)
+![Check my Website console invalid or already taken login](/assets/img/fullsize/en/console/login/login-invalid.png)
 
 ### Sign up with a social account
 
@@ -45,7 +45,7 @@ Icons on the left of the two fileds are changing regarding the information you e
 - **Red color** to indicate that your `Login` or `Password` is invalid.
 - **Green color** to indicate that everything is OK.
 
-![Check my Website console invalid data on login](/assets/img/fullsize/console/invalid-data.png)
+![Check my Website console invalid data on login](/assets/img/fullsize/en/console/login/invalid-data.png)
 
 ### Personal icon aka Gravater
 
@@ -57,8 +57,8 @@ If you want to have a nice picture of you dsplayed in the top right corner of th
 
 In case you forgot your password, click `Forgot password?` The screen below is then displayed.
 
-![Check my Website console forgot password](/assets/img/fullsize/console/reset-password.png)
+![Check my Website console forgot password](/assets/img/fullsize/en/console/login/reset-password.png)
 
 Just enter the email you used when signing up, click `Submit` and we'll send you a token to reset your password.
 
-![Check my Website console token e-mail](/assets/img/fullsize/console/token-sent.png)
+![Check my Website console token e-mail](/assets/img/fullsize/en/console/login/token-sent.png)

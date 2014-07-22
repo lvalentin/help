@@ -1,0 +1,35 @@
+- word: Uptime
+  definition: 'The time during which a machine or piece of equipment, as a computer, a server or website is operating or can be operated.'
+
+- word: Availability
+  definition: 'In general, this is the characteristic of a resource that is committable, operable, or usable upon demand to perform its designated or required function. It is the aggregate of the resource’s accessibility, reliability, maintainability, serviceability, and securability. For computers and websites, this the percentage of time a system is available for use. Formula: Uptime x 100 ÷ (Uptime + Downtime).'
+
+- word: Website
+  definition: 'A location on the World Wide Web that maintains one or more pages at a specific address. It‘s now recommanded to write it in one word; just like webmaster or webcam. Here at Check my Website, it is an address beginning with <code>HTTP</code> or <code>HTTPS</code> and corresponds to <em>the minimal entity that you can check, monitor with the Check my Website service</em>.'
+
+- word: 'OK state'
+  definition: ''
+
+- word: 'Warning state'
+  definition: 'Warning'
+
+- word: 'Critical state'
+  definition: 'Critical'
+
+- word: 'Pending state'
+  definition: 'A website is in pending state when it has <strong>not</strong> been yet monitor'
+
+- word: 'Grey??? state'
+  definition: 'What is grey state'
+
+- word: 'URL'
+  definition: 'URL'
+
+- word: 'URI'
+  definition: 'URI'
+
+- word: 'Internet address'
+  definition: 'address'
+
+- word: 'Web page'
+  definition: 'web page'

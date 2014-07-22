@@ -10,6 +10,4 @@ lead: "API rest as you know"
 weight: "005"
 ---
 
-## API REST
-
-Go to https://
+Work in progress

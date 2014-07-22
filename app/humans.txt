@@ -3,7 +3,7 @@
 
 # TEAM
 
-    wooster -- Site Maker --  http://twitter.com/checkmyws
+    help -- Site Maker --  http://twitter.com/checkmyws
 
 # THANKS
 
@@ -12,8 +12,7 @@
 # TECHNOLOGY COLOPHON
 
     Jekyll static site generator
-    Sass 
-    HTML5 ★ Boilerplate 
     Normalize.css 
     Twitter Bootstrap
+    Raneto stylesheets
 

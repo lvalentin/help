@@ -14,15 +14,14 @@ The documentation is divided in four parts :
 3. [Console](/en/console)
 4. [API](API)
 
-## Terminology
+## Terminology and definitions
 
 <dl>
-<dt>Website</dt>
-<dd>A location on the World Wide Web that maintains one or more pages at a specific address. It's now recommanded to write it in one word; just like webmaster or webcam. Here at Check my Website, it is an address beginning with <code>HTTP</code> or <code>HTTPS</code> and corresponds to <em>the minimal entity that you can check, monitor with the Check my Website service</em>.</dd>
-<dt>Web page</dt>
-<dd>Same as website</dd>
-<dt>URL, URI</dt>
-<dd>Same as website</dd>
+{% assign sorted_defs = site.data.en.definitions | sort: 'word' %}
+{% for def in sorted_defs %}
+  <dt id="{{ def.word | replace:' ','-' | downcase }}">{{ def.word }}</dt>
+  <dd>{{ def.definition }}</dd>
+{% endfor %}
 </dl>
 
 ## Convention

@@ -12,4 +12,4 @@ weight: "0012"
 
 The welcome screen is located at [http://console.checkmy.ws/#/welcome](http://console.checkmy.ws/#/welcome)
 
-![Check my Website console welcome screen](/assets/img/fullsize/console/welcome-screen.png)
+![Check my Website console welcome screen](/assets/img/fullsize/en/console/welcome/welcome-screen.png)
