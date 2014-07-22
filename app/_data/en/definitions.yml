@@ -5,7 +5,7 @@
   definition: 'In general, this is the characteristic of a resource that is committable, operable, or usable upon demand to perform its designated or required function. It is the aggregate of the resource’s accessibility, reliability, maintainability, serviceability, and securability. For computers and websites, this the percentage of time a system is available for use. Formula: Uptime x 100 ÷ (Uptime + Downtime).'
 
 - word: Website
-  definition: 'A location on the World Wide Web that maintains one or more pages at a specific address. It‘s now recommanded to write it in one word; just like webmaster or webcam. Here at Check my Website, it is an address beginning with <code>HTTP</code> or <code>HTTPS</code> and corresponds to <em>the minimal entity that you can check, monitor with the Check my Website service</em>.'
+  definition: 'A location on the World Wide Web that maintains one or more pages at a specific address. It’s now recommanded to write it in one word; just like webmaster or webcam. Here at Check my Website, it is an address beginning with <code>HTTP</code> or <code>HTTPS</code> and corresponds to <em>the minimal entity that you can check, monitor with the Check my Website service</em>.'
 
 - word: 'OK state'
   definition: ''
@@ -35,4 +35,4 @@
   definition: 'web page'
 
 - word: 'Response time'
-  definition: 'In technology, response time is the time a system or functional unit takes to react to a given input.'
+  definition: 'Response time is the time a system or functional unit takes to react to a given input. For a website, it’s the total time taken by network, DNS and HTTP server.'

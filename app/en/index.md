@@ -29,3 +29,7 @@ The documentation is divided in four parts :
 Console, technical words, menus and keyboard shortcuts are `highlighted`.
 
 When buttons are dimmed in the console, it indicates that the function is not available.
+
+## Contribute
+
+We try to keep this documentation as accurate as possible but if you find mistakes or parts that seems to be outdated, you can open a ticket on our helpdesk system. You can also fork, modify an dmake a pull request. Thansk in advance for any cooperation.
