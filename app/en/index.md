@@ -10,9 +10,9 @@ lead: "Welcome to the english version of the Check my Website service documentat
 The documentation is divided in four parts : 
 
 1. [FAQ](/en/faq/)
-2. [Howtos](en/howtos)
+2. [Howtos](/en/howtos)
 3. [Console](/en/console)
-4. [API](API)
+4. [API](/en/api/)
 
 ## Terminology and definitions
 
