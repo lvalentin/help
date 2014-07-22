@@ -9,4 +9,10 @@ layout: page
 {% endif %}
 
 
-{{ content }}
+{% for article in site.howtos %}
+{% if article.locale == page.locale %}
+	<ol>
+    	<li class="pages"><a href="{{ article.permalink }}">{{ article.title }}</a><p>{{ article.lead }}</p></li>
+    </ol>
+   {% endif %}
+{% endfor %}

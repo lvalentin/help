@@ -8,14 +8,10 @@ layout: page
   {% assign name = "in english" %}
 {% endif %}
 
-
-{{ page.lead }}
-{{ name }}
-
 {% for article in site.api %}
 {% if article.locale == page.locale %}
-    {{ article.title }}
-    {{ article.locale }}
-    {{ article.content | markdownify }}
+	<ol>
+    	<li class="pages"><a href="{{ article.permalink }}">{{ article.title }}</a><p>{{ article.lead }}</p></li>
+    </ol>
    {% endif %}
 {% endfor %}

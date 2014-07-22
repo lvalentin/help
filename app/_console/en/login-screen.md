@@ -47,18 +47,10 @@ Icons on the left of the two fileds are changing regarding the information you e
 
 ![Check my Website console invalid data on login](/assets/img/fullsize/en/console/login/invalid-data.png)
 
-### Personal icon aka Gravater
-
-If you want to have a nice picture of you dsplayed in the top right corner of the console, you can do so by creating an account at [gravatar.com](https://en.gravatar.com/).
-
-> Your Gravatar is an image that follows you from site to site appearing beside your name when you do things like comment or post on a blog. Avatars help identify your posts on blogs and web forums, so why not on any site?
+Go to [menu and navigation](/en/console/menu-navigation) to start using the console.
 
 ## Reset Password
 
-In case you forgot your password, click `Forgot password?` The screen below is then displayed.
+In case you forgot your password, click `Forgot password?` and then follow the [howto](/en/howtos/reset-password/) explaining the steps involved to do so..
 
-![Check my Website console forgot password](/assets/img/fullsize/en/console/login/reset-password.png)
 
-Just enter the email you used when signing up, click `Submit` and we'll send you a token to reset your password.
-
-![Check my Website console token e-mail](/assets/img/fullsize/en/console/login/token-sent.png)

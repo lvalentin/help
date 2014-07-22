@@ -30,7 +30,7 @@ In fact, the global overview is just these 6 badges located under the navigation
 - The *yellow, orange* one gives you the number of websites in [`Warning` state](/en/#warning-state).
 - The *red* one gives you the number of websites in [`Critical` state](/en/#critical-state).
 - The *blue* one gives you the number of websites in [`Pending` state](/en/#pending-state)).
-- The *grey* one gives you the number of websites in [`???????` state](/en/#grey-state).
+- The *grey* one gives you the number of websites in [`Unknown` state](/en/#unknown-state).
 
 Clicking on one of these badges filter the [navigation](/en/console/menu-navigation/) by state, showing only websites in the clicked state.
 

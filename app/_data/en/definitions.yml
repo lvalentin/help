@@ -19,8 +19,8 @@
 - word: 'Pending state'
   definition: 'A website is in pending state when it has <strong>not</strong> been yet monitor'
 
-- word: 'Grey??? state'
-  definition: 'What is grey state'
+- word: 'Unknown state'
+  definition: 'A website is in unknown state when a check has encountered an error.'
 
 - word: 'URL'
   definition: 'URL'
