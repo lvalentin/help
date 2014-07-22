@@ -1,7 +1,7 @@
 help
 ====
 
-All the doc and help for using Checkmy Website services.
+All the doc and help for using Check my Website services.
 
 
 To run in develpoment mode, you need to do the following :
