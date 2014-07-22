@@ -78,4 +78,4 @@ The big <i class="fa fa-plus"></i> icon allows you to add a new website to monit
 
 The right bottom corner of each screenshot displays the [response time](/en/terms-definitions/#response-time) of each website.
 
-You can scroll up and down in the navigation to see hidden websites. You may have to scroll or not depending on how much websites you monitor and how wide is you screen.
+You can scroll up and down in the navigation to see websites not displayed. You may have to scroll or not depending on how much websites you monitor and how wide is you screen.
