@@ -5,7 +5,7 @@
   </li>
 
   <li class="category">
-    <h5 class="category-title">Howtos</h5>
+    <h5 class="category-title"><a href="/{{ page.locale }}/howtos/">Howtos</a></h5>
     {% if page.url contains "/howtos" %}
     <ul class="pages">
       {% assign sorted_articles = site.howtos | sort: 'title' %}
@@ -19,7 +19,7 @@
 {% endif %}
 
   <li class="category">
-    <h5 class="category-title">Console</h5>
+    <h5 class="category-title"><a href="/{{ page.locale }}/console/">Console</a></h5>
     {% if page.url contains "/console" %}
     <ul class="pages">
       {% assign sorted_articles = site.console | sort: 'weight' %}
@@ -33,7 +33,7 @@
 {% endif %}
 
   <li class="category">
-    <h5 class="category-title">API</h5>
+    <h5 class="category-title"><a href="/{{ page.locale }}/api/">API</a></h5>
     {% if page.url contains "/api" %}
     <ul class="pages">
       {% assign sorted_articles = site.api %}
