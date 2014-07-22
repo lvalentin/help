@@ -58,4 +58,6 @@ On the left, you can find the top 5 [uptime](/en/#uptime) websites. These are th
 
 ### Top five response time
 
-On the right, you can find the top 5 [response time](/en/#response-time). These ones are responding the fastest from all the websites you monitor. **41ms** for the fastest in the example screen. It **does not** mean that they are the fastest to load in the browser.
+On the right, you can find the top 5 [response time](/en/#response-time). These ones are responding the fastest from all the websites you monitor. **41ms** for the fastest in the example screen. 
+
+<p class="alert alert-warning" role="alert">It <strong>does not</strong> mean that they are the fastest to load in the browser.</p>
