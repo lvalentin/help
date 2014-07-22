@@ -52,7 +52,7 @@ Each of the screenshot is bordered with a thin line, which color represents the 
 
 The selected website in the console is a bit bolder than the other ones.
 
-The big `+` sign allows you to add a new website to monitor.
+The big <i class="fa fa-plus"></i> icon allows you to add a new website to monitor.
 
 The right bottom corner of each screenshot displays the [response time](/en/#response-time) of each website.
 

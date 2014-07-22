@@ -184,7 +184,9 @@ module.exports = function (grunt) {
     imagemin: {
       dist: {
         options: {
-          progressive: true
+          progressive: true,
+          optimizationLevel: 2,
+          pngquant: true
         },
         files: [{
           expand: true,
@@ -217,11 +219,11 @@ module.exports = function (grunt) {
             'assets/img/**/*',
             'assets/fonts/**/*',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
-            '!**/_*{,/**}'
+            '!**/_*{,/**}',
             // Explicitly add any files your site needs for distribution here.
             //'_bower_components/jquery/jquery.js',
-            //'favicon.ico',
-            //'apple-touch*.png'
+            'favicon.ico',
+            'apple-touch*.png'
           ],
           dest: '<%= yeoman.dist %>'
         }]
@@ -246,7 +248,7 @@ module.exports = function (grunt) {
           src: [
             '<%= yeoman.dist %>/assets/js/**/*.js',
             '<%= yeoman.dist %>/assets/css/**/*.css',
-            '<%= yeoman.dist %>/assets/img/**/*.{gif,jpg,jpeg,png,svg,webp}',
+            // '<%= yeoman.dist %>/assets/img/**/*.{gif,jpg,jpeg,png,svg,webp}',
             '<%= yeoman.dist %>/assets/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }]
