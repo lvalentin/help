@@ -14,21 +14,13 @@ The documentation is divided in four parts :
 3. [Console](/en/console)
 4. [API](/en/api/)
 
-## Terminology and definitions
-
-<dl>
-{% assign sorted_defs = site.data.en.definitions | sort: 'word' %}
-{% for def in sorted_defs %}
-  <dt id="{{ def.word | replace:' ','-' | downcase }}">{{ def.word }}</dt>
-  <dd>{{ def.definition }}</dd>
-{% endfor %}
-</dl>
-
 ## Convention
 
 Console, technical words, menus and keyboard shortcuts are `highlighted`.
 
 When buttons are dimmed in the console, it indicates that the function is not available.
+
+Everytime you see an <i class="fa fa-question-circle"></i> icon in the interface, you can click to have help.
 
 ## Contribute
 
