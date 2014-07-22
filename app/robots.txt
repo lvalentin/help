@@ -1,0 +1,4 @@
+# robotstxt.org/
+User-agent: *
+Allow: /
+Sitemap: http://wooster.checkmy.ws/sitemap.xml
