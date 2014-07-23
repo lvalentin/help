@@ -1,6 +1,6 @@
 ---
 question: "Is it possible to check a secure website ?"
-category: "check"
+category: "console"
 locale: "en"
 ---
 

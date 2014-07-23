@@ -4,5 +4,4 @@ category: "console"
 locale: "en"
 ---
 
-
-## Easy
+Quite easy in fact.
