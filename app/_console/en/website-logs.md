@@ -24,10 +24,10 @@ On top of the events themselves, you can navigate in the logs shown.
 
 From left to right:
 
-- The <i class="fa fa-backward"></i> icon takes you to the previous logs page based on the time windows selected. See below for time window.
+- The <i class="fa fa-backward"></i> icon takes you to the previous logs page based on the time window selected. See below for time window.
 - The <i class="fa fa-refresh"></i> icon is just to refresh the logs, like every screen.
 - The <i class="fa fa-trash-o"></i> icon makes it possible to purge logs, ersae them.
-- The <i class="fa fa-forward"></i> icon takes you to the next logs page based on the time windows selected.
+- The <i class="fa fa-forward"></i> icon takes you to the next logs page based on the time window selected.
 
 Like all the graphs, you can choose the time window that is displayed.
 

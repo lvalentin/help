@@ -37,7 +37,7 @@ Like the menu bar but for the website. Click on any menu tabulation to go to tha
 - [`Metrics`](/en/console/website-metrics/) are nice graphs to show response time, YSlow notation and so on…
 - [`Timeline`](/en/console/website-timeline/) shows you how the website is loading in the browser, based on the [HAR](http://www.softwareishard.com/blog/har-12-spec/) standard.
 - [`YSlow`](/en/console/website-yslow/) are recommandations from the Yahoo performance team to have faster websites. Don't miss this one if you **do** care about your website speed and compliance.
-- [`Settings`](/en/console/website-settings/) allows you to modify every parameters about checks involved for a website.
+- [`Settings`](/en/console/website-settings/) allows you to modify every parameter about checks involved for a website.
 
 ## State duration
 
