@@ -110,7 +110,7 @@ The indicator in blue is a trend indicator telling you if the mean time for the 
 
 ## Logs, events for the last 24 hours
 
-All the events occured in the last 24 hours for the website shown. Events are fired when there's a [state](/en/terms-definitions/) change, so this panel can be empty.
+All the events occured in the last 24 hours for the website shown. Events are fired mainly when there's a [state](/en/terms-definitions/) change, so this panel can be empty.
 
 ![Check my Website console website logs and events for the last 24 hours](/assets/img/fullsize/en/console/website-overview/logs.png)
 

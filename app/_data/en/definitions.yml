@@ -8,7 +8,7 @@
   definition: 'A location on the World Wide Web that maintains one or more pages at a specific address. It’s now recommanded to write it in one word; just like webmaster or webcam. Here at Check my Website, it is an address beginning with <code>HTTP</code> or <code>HTTPS</code> and corresponds to <em>the minimal entity that you can check, monitor with the Check my Website service</em>.'
 
 - word: 'OK state'
-  definition: ''
+  definition: 'The Ok state indicates that everything is fine, working, functionnal.'
 
 - word: 'Warning state'
   definition: 'Warning'
