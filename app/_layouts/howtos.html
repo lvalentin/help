@@ -9,10 +9,11 @@ layout: page
 {% endif %}
 
 
-{% for article in site.howtos %}
+<ol>
+{% assign sorted_articles = site.howtos | sort: 'title' %}
+{% for article in sorted_articles %}
 {% if article.locale == page.locale %}
-	<ol>
-    	<li class="pages"><a href="{{ article.permalink }}">{{ article.title }}</a><p>{{ article.lead }}</p></li>
-    </ol>
-   {% endif %}
+	<li class="pages"><a href="{{ article.permalink }}">{{ article.title }}</a><p>{{ article.lead }}</p></li>
+{% endif %}
 {% endfor %}
+</ol>
