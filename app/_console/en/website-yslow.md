@@ -14,7 +14,7 @@ weight: "007"
 
 As mentioned on The [YSlow offical website](http://yslow.org/),
 
-> Yahoo!'s Exceptional Performance team has identified 34 rules that affect web page performance. YSlow's web page analysis is based on the 23 of these 34 rules that are testable. These testable rules are listed below roughly in order of importance and effectiveness. Studies have shown that web page response time can be improved by 25% to 50% by following these rules.
+> Yahoo!'s Exceptional Performance team has identified 34 rules that affect web page performance. YSlow's web page analysis is based on the 23 of these 34 rules that are testable. Studies have shown that web page response time can be improved by 25% to 50% by following these rules.
 
 Rule sare organised in rulesets. There are three rulesets at the moment:
 
@@ -26,7 +26,7 @@ This table resume which rule is applied in aruleset. Click on a rule to see deta
 
 <table class="table table-striped"><thead><tr><th align=left>Rule</th><th align=center>YSlow V2</th><th align=center>YSlow V1</th><th align=center>Small site/blog</th></tr></thead><tbody><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#ynumreq>Make fewer HTTP Requests</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#ycompress>Compress components with gzip</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yexpressions>Avoid CSS expressions</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yminify>Minify Javascript and CSS</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yetags>Configure Entity tags (ETags)</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#ymindom>Reduce the number of DOM elements</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#ycookiefree>Use cookie-free domains</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td><td align=center></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yfavicon>Make favicon small and cacheable</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#cdn>Use a Content Delivery Network (CDN)</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#ycsstop>Put CSS at top</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yexternal>Make JavaScript and CSS external</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yredirects>Avoid URL redirects</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yxhr>Make Ajax cacheable</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td><td align=center></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yno404>Avoid HTTP 404 (Not Found) error</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#ynofilter>Avoid AlphaImageLoader filter</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yemptysrc>Avoid empty src or href</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yexpires>Add Expires headers</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yjsbottom>Put Javascript at bottom</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#ydns>Reduce DNS lookups</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#ydupes>Remove duplicate JavaScript and CSS</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center><i class="fa fa-check-circle"></i></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yxhrmethod>Use GET for AJAX request</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td><td align=center></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#ymincookie>Reduce cookie size</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td><td align=center></td></tr><tr><td align=left><a href=http://checkmyws.github.io/yslow-rules/en/#yimgnoscale>Do not scale images in HTML</a></td><td align=center><i class="fa fa-check-circle"></i></td><td align=center></td><td align=center><i class="fa fa-check-circle"></i></td></tr></tbody></table>
 
-### YSlow rules in the console
+## YSlow rules in the Check my Website console
 
 This page shows you how your website performs regarding those rules.
 
@@ -34,7 +34,7 @@ This page shows you how your website performs regarding those rules.
 
 There are three panels that we're going to detail now.
 
-## The score and the score graph
+### The score and the score graph
 
 Tha badge on the left indicates the score, i.e. *95*, and the grade, i.e *A*, that the website gets with YSlow rules.
 
@@ -47,7 +47,7 @@ To understand how the score and grade are computed, see the [matrix reference pa
 
 The graph shows you the evolution of the score. Handy to trace regressions done in the website code… Or better, improvements done !
 
-## The general panel
+### The general panel
 
 The general panel is a quick overview on how the differents components families « CSS, HTML, medias and Javascript » are distributed.
 
@@ -55,7 +55,7 @@ The general panel is a quick overview on how the differents components families 
 
 For each component family, you get the number of components requested and the total weight of those components.
 
-## The rules summary panel
+### The rules summary panel
 
 This panel show you the improvements that can be done to higher your YSlow score and grade regarding the ruleset used. You can change the ruleset used in the [settings panel](/en/console/website-settings/) of the website.
 
@@ -69,7 +69,7 @@ Click on `See full list…` to see all rules used in the chosen ruleset.
 
 Click on `See only bad scores…` to focus on what you have to do.
 
-### Explanation of a rule
+#### Explanation of a rule
 
 As explained above, clicking on a rule shows you the complete explanation of that rule.
 
