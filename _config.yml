@@ -4,9 +4,9 @@
 # 3. config.yml
 
 name: help.checkmy.ws
-description: site de support de Checkmy Website
+description: site de support de Check my Website
 author:
-  name: olivier
+  name: Check my Website
   email: help@checkmy.ws
 
 support_email: help@checkmy.ws
@@ -15,7 +15,7 @@ support_email: help@checkmy.ws
 exclude: ['img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
-include: ['.htaccess']
+#include: ['.htaccess']
 
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
