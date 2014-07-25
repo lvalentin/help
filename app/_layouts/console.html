@@ -8,11 +8,11 @@ layout: page
   {% assign name = "in english" %}
 {% endif %}
 
-
-{% for article in site.console %}
+<ol>
+{% assign sorted_articles = site.console | sort: 'weight' %}
+{% for article in sorted_articles %}
 {% if article.locale == page.locale %}
-	<ol>
-    	<li class="pages"><a href="{{ article.permalink }}">{{ article.title }}</a><p>{{ article.lead }}</p></li>
-    </ol>
-   {% endif %}
+  <li class="pages"><a href="{{ article.permalink }}">{{ article.title }}</a><p>{{ article.lead }}</p></li>
+{% endif %}
 {% endfor %}
+</ol>
