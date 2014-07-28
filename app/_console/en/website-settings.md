@@ -65,22 +65,47 @@ The maximum number of locations you can choose depends on the subscription level
 
 ![Check my Website console settings general panel](/assets/img/fullsize/en/console/website-settings/checks.png)
 
+- `Last Check`
+- `YSlow ruleset`
+
 ### The checks panel in advanced mode
 
 ![Check my Website console settings advanced general panel](/assets/img/fullsize/en/console/website-settings/advanced-checks.png)
+
+- `HTTP Response code`
+- `HTTP Time limit (ms)` 
+- `Pattern` 
 
 ## The notifications panel
 
 ![Check my Website console settings notifications panel](/assets/img/fullsize/en/console/website-settings/notifications.png)
 
+- `Email notification`
+- `Email recipients` 
+
 ### The notifications panel in advanced mode
 
 ![Check my Website console settings advanced notfications panel](/assets/img/fullsize/en/console/website-settings/advanced-notifications.png)
 
+- `Confirmation checks` 
+- `States` 
+
 ## The status panel
+
 
 ![Check my Website console settings status panel](/assets/img/fullsize/en/console/website-settings/status.png)
 
+
+- `Public`
+- `Alias`
+- `Page link`
+- `Sharing page`
+
+
 ### The status panel in advanced mode
 
+
 ![Check my Website console settings advanced status panel](/assets/img/fullsize/en/console/website-settings/advanced-status.png)
+
+- `Social links`
+- `Description`
