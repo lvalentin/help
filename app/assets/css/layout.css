@@ -7,7 +7,7 @@
     padding-left: 0;
     padding-right: 0;
     width: 31.3333333333333%;
-    margin-left: 0%;
+    margin-left: 0;
     margin-right: 3%;
   }
   aside site:before,
@@ -19,7 +19,7 @@
     clear: both;
   }
   aside site:last-child {
-    margin-right: 0%;
+    margin-right: 0;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -31,7 +31,7 @@
     padding-left: 0;
     padding-right: 0;
     width: 65.6666666666667%;
-    margin-left: 0%;
+    margin-left: 0;
     margin-right: 3%;
     max-width: 728px;
   }
@@ -44,7 +44,7 @@
     clear: both;
   }
   article:last-child {
-    margin-right: 0%;
+    margin-right: 0;
   }
 }
 footer {
@@ -112,7 +112,7 @@ main:after {
     padding-left: 0;
     padding-right: 0;
     width: 22.75%;
-    margin-left: 0%;
+    margin-left: 0;
     margin-right: 3%;
   }
   aside article:before,
@@ -124,6 +124,6 @@ main:after {
     clear: both;
   }
   aside article:last-child {
-    margin-right: 0%;
+    margin-right: 0;
   }
 }

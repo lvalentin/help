@@ -139,5 +139,5 @@
 
 @media only screen and (max-width: 767px) {
     .home-search .form-group { margin-bottom: 0; }
-    #home-search { margin-bottom: 10px; }
+    .home-search { margin-bottom: 10px; }
 }
