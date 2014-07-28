@@ -100,7 +100,7 @@ Two new settings are available in the notifications panel advanced mode.
 
 ## The status panel
 
-The status panel lets you build a [status page](/en/console/website-status/) for communicating to your visitors or/and collaborators on your website health.
+The status panel lets you build a [status page](/en/console/website-status-page/) for communicating to your visitors or/and collaborators on your website health.
 
 ![Check my Website console settings status panel](/assets/img/fullsize/en/console/website-settings/status.png)
 
@@ -118,4 +118,4 @@ Two new settings are available in the status panel in advanced mode.
 - `Social links` lets you communicate on your status page your social profiles links.
 - `Description` lets you describe your activity, website right on the status page.
 
-More information on the status page can be found on the [status page documentation](/e,/console/website-status/) page.
+More information on the status page can be found on the [status page documentation](/en/console/website-status-page/) page.
