@@ -1,3 +1,7 @@
+// From libs
+var jQuery;
+var hljs;
+
 (function($, hljs){
 
     $(document).ready(function(){
