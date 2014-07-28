@@ -294,6 +294,11 @@ module.exports = function (grunt) {
       dist: [
         'copy:dist'
       ]
+    },
+    exec: {
+      sync: {
+        cmd: 'git pull'
+      }
     }
   });
 
@@ -358,6 +363,17 @@ module.exports = function (grunt) {
   grunt.registerTask('default', [
     'check',
     'test',
+    'build'
+  ]);
+
+  grunt.registerTask('dev', [
+    'check',
+    'exec:sync',
+    'build'
+  ]);
+
+  grunt.registerTask('prod', [
+    'exec:sync',
     'build'
   ]);
 };
