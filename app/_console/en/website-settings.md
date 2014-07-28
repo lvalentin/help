@@ -33,13 +33,31 @@ From left to right, you can find;
 
 ## The general panel
 
+The general panel helps you enter a URL for the website to check and a few other options.
+
 ![Check my Website console settings general panel](/assets/img/fullsize/en/console/website-settings/general.png)
+
+- The `Creation Time` can't be modified of course. This is the date and time the check wa created.
+- The `URL`
+- The Ìnterval` 
+- The `Tags` setting helps you classify your websites by words.
 
 ### The general panel in advanced mode
 
+Four new settings appear in the general panel in advanced mode.
+
 ![Check my Website console settings advanced general panel](/assets/img/fullsize/en/console/website-settings/advanced-general.png)
 
+- `HTTP Method` 
+- `Parameters` 
+- `Headers` 
+- `Body`
+
 ## The locations panel
+
+The locations panel makes it easy to choose locations from where the checks will be executed. On Check my Website, checks are done in parrallel on these locations.
+
+The maximum number of locations you can choose depends on the subscription level you have with the service. Check the [plans](/http://www.checkmy.ws/en/pricing/) to see available options.
 
 ![Check my Website console settings locations panel](/assets/img/fullsize/en/console/website-settings/locations.png)
 

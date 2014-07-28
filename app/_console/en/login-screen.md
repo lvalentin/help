@@ -20,7 +20,7 @@ You **must first sign up before accessing** the console. **Sign up is free** and
 
 Once signing in, you have complete access to all Check my Website services for 30 days. At the end of this trial, you have the choice to continue with our free plan offer or choose any paid one.
 
-Go to [price page](http://www.checkmy.ws/pricing/) to check available plans and options.
+Go to [price page](http://www.checkmy.ws/en/pricing/) to check available plans and options.
 
 To sign up, choose a `Login` and a `Password` and click `Sign up`. An `E-mail` field is then displayed. Fill it with a valid e-mail address and click the checkbox under to accept terms and conditions of the service. Click `Sign up` to finish the process.
 
