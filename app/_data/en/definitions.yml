@@ -45,3 +45,6 @@
 
 - word: 'Service Level Agreement'
   definition: 'A service-level agreement (SLA) is a part of a service contract where a service is formally defined. In practice, the term SLA is sometimes used to refer to the contracted delivery time of the service.'
+
+- word: 'Event'
+  definition: 'An event can be defined as any detectable or discernible occurrence that has significance for the management of the IT Infrastructure or the delivery of IT service and evaluation of the impact a deviation might cause to the services. Events are typically notifications created by an IT service, Configuration Item (CI) or monitoring tool.'

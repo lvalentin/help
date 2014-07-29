@@ -33,14 +33,26 @@ All these informations can be changed on the [settings page](/en/console/website
 
 ## Details
 
+This part of the status page gives you the state of the monitred website from the different locations.
+
 ![Check my Website console status page details](/assets/img/fullsize/en/console/website-status/details.png)
+
+Everything is `Ok` from all locations.
 
 ## Metrics
 
+[Availability](/en/terms-definitions/#availability) and [response time](/en/terms-definitions/#response-time) graphs of the website.
+
 ![Check my Website console status page metrics](/assets/img/fullsize/en/console/website-status/metrics.png)
+
+You can choose to have both graphs by day, week or month.
 
 ## Events
 
+[Events](/en/terms-definitions/#events) occur when a website is changing state for exemple. You can find here all events that occured during the last 7 days.
+
 ![Check my Website console status page events](/assets/img/fullsize/en/console/website-status/events.png)
+
+The website in this example got problems for around 7 minutes on the *07/26/2014* at *11:32*.
 
 You can go the [settings page](/en/console/website-status/) to configure your status page.
