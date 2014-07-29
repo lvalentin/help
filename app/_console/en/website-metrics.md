@@ -71,6 +71,12 @@ When your browser connects to a web server, the browser must execute a number of
 
 <p class="alert alert-info" role="alert">Note that the DNS Lookup is <strong>cached</strong> with the Check my Website service.</p>
 
+You website is considered:
+
+- `Green` when this metric is under *500ms*.
+- `Orange` when the metric is between *500ms* and *800ms*.
+- `Red` when the metric is above *800ms*.
+
 ### Response time graph scope
 
 Clicking the <i class="fa fa-fw fa-hand-o-right"></i> icon gives you several possibilities that we're gonna explain.
@@ -99,7 +105,13 @@ In this example, the graph represents the response time from `Gravelines (59)` l
 
 This graph represents the [availability](/en/terms-definitions/#availability) of the website for the chosen period and interval.
 
-![Check my Website console website response time graph](/assets/img/fullsize/en/console/website-metrics/availability-graph.png)
+![Check my Website console website availability graph](/assets/img/fullsize/en/console/website-metrics/availability-graph.png)
+
+The availability of the website is considered:
+
+- `Green` when this metric is above *95%*.
+- `Orange` when the metric is between *90%* and *95%*.
+- `Red` when the metric is below *90%*.
 
 This website had no problem during the last day. Each point represents one hour (`Auto`).
 
@@ -108,5 +120,11 @@ This website had no problem during the last day. Each point represents one hour 
 This graph represents the page load time for the chosen period and interval. By page load time, we mean real page load time, rendered in the browser. This is what your end user perceive.
 
 ![Check my Website console website page load time graph](/assets/img/fullsize/en/console/website-metrics/page-load-time-graph.png)
+
+The page load time of the webpage is considered:
+
+- `Green` when this metric is under *3000ms*.
+- `Orange` when the metric is between *3000ms* and *5000ms*.
+- `Red` when the metric is above *5000ms*.
 
 In this graph, it seems that the website has been overloaded on the *07/23/2014* at *18:02* with a page load time around *5 seconds* compared to the ususal value of *500ms*. Administrators making some maintenance on the website maybe ?
