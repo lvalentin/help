@@ -49,6 +49,6 @@ collections:
   console:
     output: true
 
-gems:
-  - jekyll-sitemap
+#gems:
+#  - jekyll-sitemap
 # - jekyll-pandoc
