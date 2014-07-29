@@ -11,10 +11,10 @@
   definition: 'The Ok state indicates that everything is fine, working, functionnal.'
 
 - word: 'Warning state'
-  definition: 'Warning'
+  definition: 'A website is in warning state when things are not working as expected but end users still can connect.'
 
 - word: 'Critical state'
-  definition: 'Critical'
+  definition: 'A website is in critical state when it gets down or it is too slow.'
 
 - word: 'Pending state'
   definition: 'A website is in pending state when it has <strong>not</strong> been yet monitor'
@@ -23,16 +23,16 @@
   definition: 'A website is in unknown state when a check has encountered an error.'
 
 - word: 'URL'
-  definition: 'URL'
+  definition: 'Abbreviation of Uniform Resource Locator (URL) it is the global address of documents and other resources on the World Wide Web.'
 
 - word: 'URI'
-  definition: 'URI'
+  definition: 'Short for Uniform Resource Identifier, the generic term for all types of names and addresses that refer to objects on the World Wide Web. A URLis one kind of URI.'
 
 - word: 'Internet address'
-  definition: 'address'
+  definition: 'An Internet address uniquely identifies a node on the Internet.  Internet address may also refer to the name or IP of a Web site (URL). The term Internet address can also represent someone’s e-mail address.'
 
 - word: 'Web page'
-  definition: 'web page'
+  definition: 'A document on the World Wide Web. Every Web page is identified by a unique URL(Uniform Resource Locator).'
 
 - word: 'Response time'
   definition: 'Response time is the time a system or functional unit takes to react to a given input. For a website, it’s the total time taken by network, DNS and HTTP server.'
