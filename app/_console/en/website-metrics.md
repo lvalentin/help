@@ -69,7 +69,7 @@ When your browser connects to a web server, the browser must execute a number of
 - Receiving Data. For a web page, this is the content of the file requested without any additionnal request done. CSS and other medias files are then not taken into account.
 - Closing Connection.
 
-<p class="alert alert-info" role="alert">Note that the DNS Lookup is **cached** with the Check my Website service.</p>
+<p class="alert alert-info" role="alert">Note that the DNS Lookup is <strong>cached</strong> with the Check my Website service.</p>
 
 ### Response time graph scope
 
