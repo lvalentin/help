@@ -57,38 +57,19 @@ This graph represents the [response time](/en/terms-definitions/#response-time) 
 
 ![Check my Website console website response time graph](/assets/img/fullsize/en/console/website-metrics/response-time-graph.png)
 
-### Time to first byte definition
+### What the response time means in this graph ?
 
-The response time in this graph is a Time To First Byte metric.
+The response time in this graph is the time it takes for the webserver to send the page.
 
 When your browser connects to a web server, the browser must execute a number of steps. These can be broken down into:
 
-- DNS Lookup
-- Initial Connection
-- Waiting
-- Receiving Data
-- Closing Connection
+- DNS Lookup.
+- Initial Connection.
+- Waiting.
+- Receiving Data. For a web page, this is the content of the file requested without any additionnal request done. CSS and other medias files are then not taken into account.
+- Closing Connection.
 
-The Time to First Byte « TTFB » is the time your browser spends waiting on the web server to send back the data.
-
-On a healthy webserver, typical values are:
-
-- Under 100ms for a static website.
-- Between 200ms and 500ms for a dynamic website.
-
-If you have longer values, check
-
-- Disk IO
-- Swap Usage
-- RAM Usage
-- Network Bottlenecks
-
-If you find your server’s hardware is adequate, then the configuration of your server could be the problem. You will want to systematically review:
-
-- Apache (web server) Configuration
-- PHP Settings
-- MySQL Settings
-- Network Settings
+<p> class="alert alert-info" role="alert">Note that the DNS Lookup is **cached** with the Check my Website service.</p>
 
 ### Response time graph scope
 
