@@ -1,20 +1,14 @@
 ---
 layout: page
-title: Your New Jekyll Site
+title: Welcome on Check my Website documentation
+locale: 'en'
+lead: 'You have reached the Check my Website documentation and help website.'
 ---
 
-<ul>
-<li><a href="/en/">en</a></li>
-<li><a href="/fr/">fr</a></li>
-</ul>
-
-
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<p>The documentation is provided in two languages</p>
+<ul>
+<li><a href="/en/">English</a></li>
+<li><a href="/fr/">Français</a></li>
+</ul>
 </div>
-

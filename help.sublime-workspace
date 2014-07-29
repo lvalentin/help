@@ -1,1 +1,393 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"dt",
+				"dt	Tag"
+			],
+			[
+				"aside",
+				"aside	Tag"
+			],
+			[
+				"res",
+				"responsive_images"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/index.md",
+			"settings":
+			{
+				"buffer_size": 311,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_data/en/definitions.yml",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/console.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/sitemap.xml",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/_config.yml",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-metrics.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_howtos/en/reset-password.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-status-page.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/welcome-screen.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-settings.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-timeline.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/bower.json",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/menu-navigation.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/login-screen.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/howtos.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_includes/menu.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/en/console/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/en/index.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-yslow.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/en/api/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-overview.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_bower_components/eventie/eventie.js",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-logs.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/fr/website-logs.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/overview.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/Gruntfile.js",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-events.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/en/sales/payment-options.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/faq.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/en/sales/free-forever-foss.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/en/terms-definitions/index.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/en/faq/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/en/sales/getting-quote.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/en/sales/resellers.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/en/sales/yearly-discount.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/package.json",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/typo.css",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/README.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/default.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/theme.css",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/concise.css",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/terms-definitions/index.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_bower_components/font-awesome/css/font-awesome.css",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/index.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/api.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_howtos/en/find-pattern-response.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/humans.txt",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/page.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-preferences.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/typo.styl",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/fr/response-regex.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/theme.styl",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/fr/https-check.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/howtos/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/faq/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/en/howtos/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_api/en/rest.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_howtos/fr/find-pattern-response.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_howtos/fr/monitor-first-website.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_howtos/en/monitor-first-website.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/console/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/en/https-check.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/en/response-regex.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/api/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/about/index.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/en/about/index.md",
+		"/Volumes/WD/Users/yol/Documents/Git/v-apps/nodejs/help/templates/author.jade",
+		"/Volumes/WD/Users/yol/Documents/Git/v-apps/nodejs/help/templates/article.jade",
+		"/Volumes/WD/Users/yol/Documents/Git/v-apps/nodejs/help/templates/archive.jade",
+		"/Volumes/WD/Users/yol/Documents/Git/v-apps/nodejs/Raneto-0.6.0/config.js",
+		"/Volumes/WD/Users/yol/Documents/Git/v-apps/nodejs/Raneto-0.6.0/views/home.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/raneto.css",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_refs/fr/prefs-general.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_refs/fr/prefs-check.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/ref.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/index.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_includes/navbar-main.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/layout.styl",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/layout.css",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/concise.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/concise-grid.css",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/ref/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/fr/no-more.md",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_includes/weblog/sidebar.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_data/tracks.yml",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_includes/disqus.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/artbook/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/contact/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/Gruntfile.js",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_data/artbook.yml",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_posts/2014-06-30-rencontre-avec-jimmy-cliff.md",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_posts/2014-07-30-en-premiere-partie-de-richard-bona-au-barriere-enghien-jazz-festival.md",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_posts/2014-07-30-rencontre-avec-jimmy-cliff.md",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/.bowerrc",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/assets/css/weblog/style.css",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_includes/weblog/head.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_layouts/page.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_layouts/default.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/404.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/_config.yml",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_layouts/post.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_includes/weblog/header.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/bio/index.md",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_includes/weblog/nav-main.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_data/agenda.yml",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/shop/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/artbook/ok.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_includes/weblog/post-share.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_layouts/home.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/assets/css/weblog/mobile.css",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/dist/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_includes/weblog/js.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/Vagrantfile",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/blog/index2.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/blog/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_includes/weblog/post-loop.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_includes/weblog/post-loop-complete.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/assets/js/weblog/jquery.js",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/assets/js/jquery-1.10.2.js",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_layouts/post-index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lisa/app/_includes/home-loop.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lab/home.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lab/picturefill/v2-img/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lab/picturefill/v2-picture/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lab/picturefill/v2-picture/index2.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lab/jeet-rupture/index.html",
+		"/Volumes/WD/Users/yol/Documents/Git/lab/picturefill/v2-picture/index - copie.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console",
+			"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_consoleorder:",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pricing",
+			"/pricing/",
+			"website-timeline/",
+			"weight",
+			"/yslow-rules/fr/",
+			"chosen",
+			"choosen",
+			"95",
+			"last",
+			"latest",
+			"last",
+			"png",
+			">",
+			"a:hover",
+			"nav",
+			"---",
+			"order:",
+			"console",
+			"bower_",
+			"center",
+			"push",
+			"gutter",
+			"responsi",
+			"#eac700",
+			"#2E3236",
+			"FFF",
+			"FC",
+			"a:hover",
+			"hover",
+			"site.title",
+			"../../img",
+			"../images/",
+			"png",
+			".png",
+			"expand"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"website-settings/",
+			"/yslow-rules/en/",
+			"chosen",
+			"weight:",
+			"_bower_",
+			"#2E3236",
+			"#eac700",
+			"site.name",
+			"/assets/img",
+			"/assets/img/",
+			"../../img/weblog/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/index.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "help.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"app/_console/en/website-yslow.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
