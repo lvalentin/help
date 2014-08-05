@@ -6,7 +6,7 @@ title:  "Website settings"
 date:   2014-06-12 08:00:00 +0100
 locale: "en"
 permalink: /en/console/website-settings/
-lead: "Yuo can edit and modify any website monitored on the settings page, both in basic and advanced mode."
+lead: "You can edit and modify any website monitored on the settings page, both in basic and advanced mode."
 weight: "008"
 ---
 
