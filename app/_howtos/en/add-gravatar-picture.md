@@ -14,3 +14,7 @@ lead: "You can display a nice picture of you in the Check my Website console wit
 If you want to have a nice picture of you dsplayed in the top right corner of the console, you can do so by creating an account at [gravatar.com](https://en.gravatar.com/).
 
 > Your Gravatar is an image that follows you from site to site appearing beside your name when you do things like comment or post on a blog. Avatars help identify your posts on blogs and web forums, so why not on any site?
+
+Check their [documentation](https://en.gravatar.com/support/) on how to proceed.
+
+Nothing has to be done in the Check my Website console. As soon as you have created a Gravatar icon, it will be shown in the console !

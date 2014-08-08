@@ -35,19 +35,5 @@
   </li>
 {% endif %}
 
-  <li class="category">
-    <h5 class="category-title"><a href="/{{ page.locale }}/api/">API</a></h5>
-    {% if page.url contains "/api" %}
-    <ul class="pages">
-      {% assign sorted_articles = site.api %}
-      {% for article in sorted_articles %}
-        {% if article.locale == page.locale %}
-          <li class="page"><a href="{{ article.permalink }}">{{ article.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </li>
-{% endif %}
-
 </ul>
 
