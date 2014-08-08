@@ -29,14 +29,14 @@ layout: nill
   {% endfor %}
   {% for file in site.console %}
   <url>
-    <loc>{{ file.permalink }}</loc>
+    <loc>{{ site_url }}{{ file.permalink }}</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <priority>0.9</priority>
   </url>
   {% endfor %}
   {% for file in site.howtos %}
   <url>
-    <loc>{{ file.permalink }}</loc>
+    <loc>{{ site_url }}{{ file.permalink }}</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <priority>0.9</priority>
   </url>

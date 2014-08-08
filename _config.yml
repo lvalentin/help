@@ -9,6 +9,8 @@ author:
   name: Check my Website
   email: help@checkmy.ws
 
+url: http://help.dev.checkmy.ws
+
 support_email: help@checkmy.ws
 
 # Grunt handles images and assets.
