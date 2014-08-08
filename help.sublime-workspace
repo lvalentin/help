@@ -23,14 +23,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/index.md",
-			"settings":
-			{
-				"buffer_size": 311,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -64,21 +56,32 @@
 	},
 	"file_history":
 	[
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/Gemfile",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/theme.css",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/page.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_howtos/en/reset-password.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_api/en/rest.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/fr/website-logs.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/fr/https-check.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/fr/response-regex.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_data/en/definitions.yml",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/en/sales/payment-options.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/_config.yml",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/default.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-settings.md",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_includes/menu.html",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/typo.css",
+		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/index.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/console.html",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/sitemap.xml",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/_config.yml",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-metrics.md",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_howtos/en/reset-password.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-status-page.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/welcome-screen.md",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-settings.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-timeline.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/bower.json",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/menu-navigation.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/login-screen.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/howtos.html",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_includes/menu.html",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/en/console/index.html",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/en/index.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-yslow.md",
@@ -86,11 +89,9 @@
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-overview.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_bower_components/eventie/eventie.js",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-logs.md",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/fr/website-logs.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/overview.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/Gruntfile.js",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-events.md",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/en/sales/payment-options.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/faq.html",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/en/sales/free-forever-foss.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/en/terms-definitions/index.md",
@@ -99,10 +100,7 @@
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/en/sales/resellers.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/en/sales/yearly-discount.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/package.json",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/typo.css",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/README.md",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/default.html",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/theme.css",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/concise.css",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/terms-definitions/index.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_bower_components/font-awesome/css/font-awesome.css",
@@ -110,16 +108,12 @@
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/api.html",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_howtos/en/find-pattern-response.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/humans.txt",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/page.html",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_console/en/website-preferences.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/typo.styl",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/fr/response-regex.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/theme.styl",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_faqs/fr/https-check.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/howtos/index.html",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/faq/index.html",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/en/howtos/index.html",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_api/en/rest.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_howtos/fr/find-pattern-response.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_howtos/fr/monitor-first-website.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_howtos/en/monitor-first-website.md",
@@ -138,7 +132,6 @@
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_refs/fr/prefs-general.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_refs/fr/prefs-check.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_layouts/ref.html",
-		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/index.md",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/fr/index.html",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/_includes/navbar-main.html",
 		"/Volumes/WD/Users/yol/Documents/Git/help.checkmy.ws/app/assets/css/layout.styl",
@@ -190,8 +183,7 @@
 		"/Volumes/WD/Users/yol/Documents/Git/lab/picturefill/v2-img/index.html",
 		"/Volumes/WD/Users/yol/Documents/Git/lab/picturefill/v2-picture/index.html",
 		"/Volumes/WD/Users/yol/Documents/Git/lab/picturefill/v2-picture/index2.html",
-		"/Volumes/WD/Users/yol/Documents/Git/lab/jeet-rupture/index.html",
-		"/Volumes/WD/Users/yol/Documents/Git/lab/picturefill/v2-picture/index - copie.html"
+		"/Volumes/WD/Users/yol/Documents/Git/lab/jeet-rupture/index.html"
 	],
 	"find":
 	{
@@ -275,37 +267,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/index.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 311,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								311,
-								311
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
