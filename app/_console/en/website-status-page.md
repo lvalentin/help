@@ -55,4 +55,4 @@ You can choose to have both graphs by day, week or month.
 
 The website in this example got problems for around 7 minutes on the *07/26/2014* at *11:32*.
 
-You can go the [settings page](/en/console/website-status/) to configure your status page.
+You can go the [settings page](/en/console/website-settings/) to configure your status page.
