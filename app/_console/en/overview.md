@@ -34,8 +34,6 @@ In fact, the global overview is just these 6 badges located under the navigation
 
 Clicking on one of these badges filter the [navigation](/en/console/menu-navigation/) by state, showing only websites in the clicked state.
 
-![Check my Website console filtered navigation by state](/assets/img/fullsize/en/console/overview/filtered-navigation.png)
-
 - The *blue* one in the right gives you the `Total` number of websites you monitor with Check my Website service. this total number depends on the plan you choose.
 
 ## The instant availability

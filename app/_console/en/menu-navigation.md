@@ -22,7 +22,7 @@ The menu bar is the first part shown from the top of the console.
 
 From left to right, you can find in that menu bar :
 
-- The Chek my Website logo. Click on it to go to the [global overview](/en/console/golbal-overview/).
+- The Chek my Website logo. Click on it to go to the [global overview](/en/console/overview/).
 - An <i class="fa fa-plus-square pointer"></i> icon. You can then add anytime a new website to monitor. The number of websites you can monitor depends on your [subscription level](http://www.checkmy.ws/en/pricing/) to the service.
 - An <i class="fa fa-refresh"></i> icon allows you to refresh the whole console screen.
 - An <i class="fa fa-comments"></i> icon. You can get in touch with us by clicking this icon.
