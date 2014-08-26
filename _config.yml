@@ -28,16 +28,16 @@ paginate: 12
 paginate_path: 'page:num'
 
 # Markdown library
-markdown: redcarpet
+#markdown: redcarpet
 
-redcarpet:
-  extensions: ['fenced_code_blocks', 'smart', 'tables', 'footnotes']
+#redcarpet:
+#  extensions: ['fenced_code_blocks', 'smart', 'tables', 'footnotes']
 
-#markdown: pandoc
+markdown: pandoc
 
-#pandoc:
-#  format: html5
-#  extensions: [smart, mathjax, section-divs]
+pandoc:
+  format: html5
+  extensions: [smart, mathjax, section-divs]
 
 highlighter: null
 
