@@ -27,6 +27,8 @@ permalink: none
 paginate: 12
 paginate_path: 'page:num'
 
+env: dev
+
 # Markdown library
 #markdown: redcarpet
 

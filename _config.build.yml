@@ -7,3 +7,5 @@ future: false
 show_drafts: false
 
 url: http://help.checkmy.ws
+
+env: prod
