@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Terms et définitions"
+title: "Termes et définitions"
 lead: "Toutes les définitions des termes utilisés dans cette documentation."
 locale: "fr"
 updated: "2008-12-14 10:30:00 +0900"

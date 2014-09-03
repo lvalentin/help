@@ -1,7 +1,13 @@
+{% if page.locale == "fr" %}
+  {% assign term = "Termes et définitions" %}
+{% elsif page.locale == "en" %}
+  {% assign term = "Terms and definitions" %}
+{% endif %}
+
 <ul class="menu">
 
   <li class="category">
-    <h5 class="category-title"><a href="/{{ page.locale }}/terms-definitions/">Terms and definitions</a></h5>
+    <h5 class="category-title"><a href="/{{ page.locale }}/terms-definitions/">{{ term }}</a></h5>
   </li>
   <li class="category">
     <h5 class="category-title"><a href="/{{ page.locale }}/faq/">FAQ</a></h5>
