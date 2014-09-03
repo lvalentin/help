@@ -5,7 +5,7 @@ layout: page
 title:  "Comment réinitialiser son mot de passe"
 date:   2014-06-12 08:00:00 +0100
 locale: "fr"
-permalink: /en/howtos/reset-password/
+permalink: /fr/howtos/reset-password/
 lead: "Comment réinitialiser son mot de passe de compte en 3 étapes simples."
 ---
 

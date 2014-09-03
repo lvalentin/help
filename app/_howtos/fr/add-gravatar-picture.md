@@ -5,7 +5,7 @@ layout: page
 title:  "Comment ajouter une photo à votre compte"
 date:   2014-06-12 08:00:00 +0100
 locale: "fr"
-permalink: /en/howtos/add-gravatar-picture/
+permalink: /fr/howtos/add-gravatar-picture/
 lead: "Vous pouvez afficher une photo de vous dans la console Check my Website avec le service en ligne Gravatar."
 ---
 

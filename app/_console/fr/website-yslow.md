@@ -5,7 +5,7 @@ layout: page
 title:  "YSlow"
 date:   2014-06-12 08:00:00 +0100
 locale: "fr"
-permalink: /en/console/website-yslow/
+permalink: /fr/console/website-yslow/
 lead: "Page qui propose de montrer comment votre site web performe par rapport aux règles YSlow. Les régles YSlow sont un ensemble de bonnes pratiques pour améliorer la performance de son site web."
 weight: "007"
 ---
