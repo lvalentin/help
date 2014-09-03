@@ -23,7 +23,7 @@ La documentation est divisée en quatre parties :
 
 Les raccourcis clavier, la console, les mots techniques et les menus sont `highlighted`.
 
-Quand un bouton est grisé dans la console, c'est pour indiqué que l'action n'est pas disponible.
+Quand un bouton est grisé dans la console, c'est pour indiquer que l'action n'est pas disponible.
 
 À chaque fois que vous voyez l'icône <i class="fa fa-question-circle"></i> dans l'interface, vous pouvez cliquer dessus pour obtenir de l'aide.
 
