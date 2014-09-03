@@ -21,7 +21,7 @@ La documentation est divisée en quatre parties :
 
 ## Conventions
 
-Les raccourcis clavier, la console, les mots techniques et les menus sont `highlighted`.
+Les raccourcis clavier, la console, les mots techniques et les menus sont `surlignés`.
 
 Quand un bouton est grisé dans la console, c'est pour indiquer que l'action n'est pas disponible.
 
