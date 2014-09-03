@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Documentation du service Check my Website en français"
+title: "Documentation du service Check my Website"
 locale: "fr"
 lead: "Bienvenue sur la documentation en français du service Check my Website."
 ---
