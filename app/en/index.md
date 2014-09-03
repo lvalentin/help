@@ -5,7 +5,7 @@ locale: "en"
 lead: "Welcome to the english version of the Check my Website service documentation."
 ---
 
-## What is Chek my Website ?
+## What is Check my Website ?
 
 Check my Website is a unique service for remote monitoring of websites and applications. It helps you to see the end-user point of view and gives you close insights on how to make your website « harder, better, faster, stronger ».
 

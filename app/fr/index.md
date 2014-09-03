@@ -6,7 +6,7 @@ lead: "Bienvenue sur la documentation en français du service Check my Website."
 ---
 
 
-## Qu'est-ce que Chek my Website ?
+## Qu'est-ce que Check my Website ?
 
 Check my Website est un service unique pour la supervision et la surveillance à distance de la disponibilité, de la performance et du bon fonctionnement des sites et applications web. Il vous aide à voir le point de vue de l'utilisateur final et vous donne les pistes précises pour rendre votre site web « harder, better, faster, stronger ».
 
