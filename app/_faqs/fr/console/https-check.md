@@ -1,7 +1,7 @@
 ---
-question: "Is it possible to check a secure website ?"
+question: "Est-il possible de contrôler un site sécurisé ?"
 category: "console"
 locale: "fr"
 ---
 
-Yes. You can check both HTTP and HTTP protocol with Check my Website. Just paste the URL with HTTPS as usual in the console.
+Oui. Vous pouvez aussi bien vérifier le protocole HTTP et HTTPS avec le service Check my Website. Coller simplement l'URL avec HTTPS dans la console comme à l'accoutumée.

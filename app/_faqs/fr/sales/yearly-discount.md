@@ -1,5 +1,5 @@
 ---
-question: "Do I get a discount for an annual subscription as opposed to monthly?"
+question: "Y a t'il une remise spécifique pour un engagmeent annuel ?"
 category: "sales"
 locale: "fr"
 ---

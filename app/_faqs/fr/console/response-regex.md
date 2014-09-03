@@ -1,7 +1,7 @@
 ---
-question: "How to find a regex in server response?"
+question: "Comment trouver une chaîne de caractères dans la réponse ?"
 category: "console"
 locale: "fr"
 ---
 
-Quite easy in fact.
+Plutôt facile en fait.
