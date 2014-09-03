@@ -1,67 +1,67 @@
 - word: Uptime
   anchor: uptime
-  definition: 'The time during which a machine or piece of equipment, as a computer, a server or website is operating or can be operated.'
+  definition: 'La durée, le temps pendant lequel un équipement ou une pièce d’équipement, comme un ordinateur, un serveur ou un site web est opérationnel ou considéré comme tel.'
 
-- word: Availability
+- word: Disponibilité
   anchor: availability
-  definition: 'In general, this is the characteristic of a resource that is committable, operable, or usable upon demand to perform its designated or required function. It is the aggregate of the resource’s accessibility, reliability, maintainability, serviceability, and securability. For computers and websites, this the percentage of time a system is available for use. Formula: Uptime x 100 ÷ (Uptime + Downtime).'
+  definition: 'En général, c’est la caractéristique d’une ressource d’être opérable, utilisable à la demande pour remplir sa fonction. C’est la somme de l’accessibilité, de la fiabilité, de la maintenabilité et de la sécurité de la ressource. Pour les sites web, c’est le pourcentage de temps qu’un système est disponible pour son utilisation. Formule : Uptime x 100 ÷ (Uptime + Downtime).'
 
-- word: Website
+- word: Site web
   anchor: website
-  definition: 'A location on the World Wide Web that maintains one or more pages at a specific address. It’s now recommanded to write it in one word; just like webmaster or webcam. Here at Check my Website, it is an address beginning with <code>HTTP</code> or <code>HTTPS</code> and corresponds to <em>the minimal entity that you can check, monitor with the Check my Website service</em>.'
+  definition: 'Un lieu sur le World Wide Web qui maintient une ou plusieurs pages à des adresses spécifiques. À Check my Website, cette une adresse commençant par <code>HTTP</code> ou <code>HTTPS</code> qui correspond à <em>l’entité minimale que vous pouvez superviser avec le service Check my Website</em>.'
 
-- word: 'OK state'
+- word: 'État OK'
   anchor: ok-state
-  definition: 'The Ok state indicates that everything is fine, working, functionnal.'
+  definition: 'L’état Ok indique que tout va bien, fonctionnel, opérationnel.'
 
-- word: 'Warning state'
+- word: 'État attention'
   anchor: warning-state
-  definition: 'A website is in warning state when things are not working as expected but end users still can connect.'
+  definition: 'Un site web est en état Attention à l’existence de problèmes pouvant affecter l’utilisateur final.'
 
-- word: 'Critical state'
+- word: 'État critique'
   anchor: critical-state
-  definition: 'A website is in critical state when it gets down or it is too slow.'
+  definition: 'Un site web est en état Critique quand il est hors d’usage ou trop lent.'
 
-- word: 'Pending state'
+- word: 'État non contrôlé'
   anchor: pending-state
-  definition: 'A website is in pending state when it has <strong>not</strong> been yet monitor'
+  definition: 'Un site web est en état Non contrôlé quand il n’a <strong>pas</strong> encore été supervisé.'
 
-- word: 'Unknown state'
+- word: 'État inconnu'
   anchor: unknown-state
-  definition: 'A website is in unknown state when a check has encountered an error.'
+  definition: 'Un site web est en état Inconnu quand une erreur est survenue lors du contrôle.'
 
 - word: 'URL'
   anchor: url
-  definition: 'Abbreviation of Uniform Resource Locator (URL) it is the global address of documents and other resources on the World Wide Web.'
+  definition: 'Abréviation de Uniform Resource Locator (URL). C’est l’adresse globale des documents et autres ressources du World Wide Web.'
 
 - word: 'URI'
   anchor: uri
-  definition: 'Short for Uniform Resource Identifier, the generic term for all types of names and addresses that refer to objects on the World Wide Web. A URLis one kind of URI.'
+  definition: 'Abréviation de Uniform Resource Identifier, le nom générique des adresses pour tout types d’objets sur le World Wide Web. Une URL est un type d’URI.'
 
-- word: 'Internet address'
+- word: 'Adresse Internet'
   anchor: internet-address
-  definition: 'An Internet address uniquely identifies a node on the Internet.  Internet address may also refer to the name or IP of a Web site (URL). The term Internet address can also represent someone’s e-mail address.'
+  definition: 'Une adresse Internet identifie de façon unique un nœud sur l’Internet. L’adresse Internet se référe aussi au nom ou à l’IP d’un site web (URL). Cela peut aussi représenter l’adresse électronique de quelqu’un.'
 
-- word: 'Web page'
+- word: 'Page web'
   anchor: webpage
-  definition: 'A document on the World Wide Web. Every Web page is identified by a unique URL(Uniform Resource Locator).'
+  definition: 'Un document sur le World Wide Web. Chaque page est identifée par une URL unique.'
 
-- word: 'Response time'
+- word: 'Temps de réponse'
   anchor: response-time
-  definition: 'Response time is the time a system or functional unit takes to react to a given input. For a website, it’s the total time taken by network, DNS and HTTP server.'
+  definition: 'Le temps de réponse est le tmeps que prend un système à réagir à une sollicitation. Pour un site web, c’est le temps total pris par les opérations de réseaux, de DNS et de serveur HTTP.'
 
-- word: 'HTTP request'
+- word: 'Requête HTTP'
   anchor: http-request
-  definition: 'Whenever your web browser fetches a file (a page, a picture, etc) from a web server, it does so using HTTP « that’s "Hypertext Transfer Protocol" ».  HTTP is a request/response protocol, which means your computer sends a request for some file (e.g. "Get me the file home.html"), and the web server sends back a response ("Here’s the file", followed by the file itself).'
+  definition: 'Quand un navigateur demande une page à un serveur web, il le fait en utilisant le protocole « Hypertext Transfer Protocol ». HTTP est le protocole de requêtes/réponse. Cela signifie que le navigateur requête un fichier (e.g. "Donnes-moi le fichier home.html"), et le serveur web envoie en retour une réponse ("Voilà le fichier",  suivi du fichie rlui-même).'
 
-- word: 'HTTP redirect'
+- word: 'Redirection HTTP'
   anchor: http-redirect
-  definition: 'known as 301 or 302 server response code. Occurs when a web server tells the client browser to obtain a certain requested page from a different location.'
+  definition: 'Connu sous le nom d’erreurs 301 et 302. Se produit quand un serveur web indique au navigateur client d’obtenir une page à une adresse différente de celle demandée.'
 
-- word: 'Service Level Agreement'
+- word: 'Agréement de niveau de services'
   anchor: sla
-  definition: 'A service-level agreement (SLA) is a part of a service contract where a service is formally defined. In practice, the term SLA is sometimes used to refer to the contracted delivery time of the service.'
+  definition: 'A service-level agreement (SLA) est un agréement de services qui fait partie d’un contrat qui définit de façon formelle le service rendu. Dans la pratique, le terme de SLA fait référence à la disponibilité du service fixé par contrat.'
 
-- word: 'Event'
+- word: 'Événements'
   anchor: event
-  definition: 'An event can be defined as any detectable or discernible occurrence that has significance for the management of the IT Infrastructure or the delivery of IT service and evaluation of the impact a deviation might cause to the services. Events are typically notifications created by an IT service, Configuration Item (CI) or monitoring tool.'
+  definition: 'Un événement peut être défini comme la moindre occurence détectable ayant une signification pour la gestion IT. Un événements est typiquement une notification créé par le service IT ou un système de supervision'
