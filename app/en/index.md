@@ -18,7 +18,7 @@ The documentation is divided in four parts :
 3. [Console](/en/console)
 4. [API](/en/api/)
 
-## Convention
+## Conventions
 
 Console, technical words, menus and keyboard shortcuts are `highlighted`.
 
@@ -26,8 +26,8 @@ When buttons are dimmed in the console, it indicates that the function is not av
 
 Everytime you see an <i class="fa fa-question-circle"></i> icon in the interface, you can click to have help.
 
-The number of locations, time windows shown in the console may depend on the service subscription you have. See [plans](http://www.checkmy.ws/pricing/) for options available.
+The number of locations, time windows shown in the console may depend on the service subscription you have. See coming plans for available options.
 
 ## Contribute
 
-We try to keep this documentation as accurate as possible but if you find mistakes or parts that seems to be outdated, you can open a ticket on our helpdesk system. You can also fork, modify an dmake a pull request. Thansk in advance for any cooperation.
+We try to keep this documentation as accurate as possible but if you find mistakes or parts that seems to be outdated, you can open a ticket on our helpdesk system. You can also fork, modify and make a pull request. Thanks in advance for any cooperation.
