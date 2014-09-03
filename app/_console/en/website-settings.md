@@ -28,14 +28,14 @@ From left to right, you can find;
 
 1. The `Disable` button to temporaly or defintively disable a website check. When clicked, the website will **not** be monitored anymore.
 2. The `Remove` button to just do that. A removed website will **not** appear anymore in the console.
-3. The `Rechedule check` button. You can ask an immediate reschedule for a check by clicking on this button.
+3. The `Reschedule check` button. You can ask an immediate reschedule for a check by clicking on this button.
 4. The `Advanced mode` lets you switch to the Advanced settings page. This is in fact the same page with more options.
 
 ## The general panel
 
 The general panel helps you enter a URL for the website to check and a few other options.
 
-![Check my Website console settings general panel](/assets/img/fullsize/en/console/website-settings/general.png)
+![Check my Website console general settings panel](/assets/img/fullsize/en/console/website-settings/general.png)
 
 - The `Creation Time` can't be modified of course. This is the date and time the check wa created.
 - The `URL` is the Internet address of the website, page you want to monitor.
@@ -46,26 +46,26 @@ The general panel helps you enter a URL for the website to check and a few other
 
 Four new settings appear in the general panel in advanced mode.
 
-![Check my Website console settings advanced general panel](/assets/img/fullsize/en/console/website-settings/advanced-general.png)
+![Check my Website console advanced general settings panel](/assets/img/fullsize/en/console/website-settings/advanced-general.png)
 
 - `HTTP Method` is the method used to talk to the server. Usually `GET` or `POST`.
 - `Parameters` allows you to pass parameters in the string query of the URL.
-- `Headers` allow you to manipulate `headers` of the request dont to the server.
+- `Headers` allow you to manipulate `headers` of the request done to the server.
 - `Body` is the just the same for the `body` of the request.
 
 ## The locations panel
 
 The locations panel makes it easy to choose locations from where the checks will be executed. On Check my Website, checks are done in parrallel on these locations.
 
-The maximum number of locations you can choose depends on the subscription level you have with the service. Check the [plans](/http://www.checkmy.ws/en/pricing/) to see available options.
+The maximum number of locations you can choose depends on the subscription level you have with the service. Check the [plans](http://www.checkmy.ws/en/pricing/) to see available options.
 
-![Check my Website console settings locations panel](/assets/img/fullsize/en/console/website-settings/locations.png)
+![Check my Website console locations settings panel](/assets/img/fullsize/en/console/website-settings/locations.png)
 
 ## The checks panel
 
 You can tweak main options of a website check in the check panel.
 
-![Check my Website console settings general panel](/assets/img/fullsize/en/console/website-settings/checks.png)
+![Check my Website console check settings panel](/assets/img/fullsize/en/console/website-settings/checks.png)
 
 - `Last Check` is the date and time of the latest executed check.
 - `YSlow ruleset` lets you choose a ruleset for YSlow notation. See [YSlow](/en/console/website-yslow/) for more informations on that.
@@ -74,7 +74,7 @@ You can tweak main options of a website check in the check panel.
 
 Three new options appear in the checks panel advanced mode.
 
-![Check my Website console settings advanced general panel](/assets/img/fullsize/en/console/website-settings/advanced-checks.png)
+![Check my Website console advanced check settings panel](/assets/img/fullsize/en/console/website-settings/advanced-checks.png)
 
 - `HTTP Response code` is the response code you're waiting for in the server response. This is usually `200`.
 - `HTTP Time limit (ms)` lets you put a limit in time for what you think your website should responds. If you enter *500* here, you want your website response under 5 seconds. If it goes above this value, you'll be notified. 
@@ -84,7 +84,7 @@ Three new options appear in the checks panel advanced mode.
 
 All the setting regarding notifications, alerts are in the notification paneL.
 
-![Check my Website console settings notifications panel](/assets/img/fullsize/en/console/website-settings/notifications.png)
+![Check my Website console notifications settings panel](/assets/img/fullsize/en/console/website-settings/notifications.png)
 
 - `Email notification` enables or disables email notification for a wabsite.
 - `Email recipients` is a list of persons notified in case of problem on the website.
@@ -93,7 +93,7 @@ All the setting regarding notifications, alerts are in the notification paneL.
 
 Two new settings are available in the notifications panel advanced mode.
 
-![Check my Website console settings advanced notfications panel](/assets/img/fullsize/en/console/website-settings/advanced-notifications.png)
+![Check my Website console advanced notfications settings panel](/assets/img/fullsize/en/console/website-settings/advanced-notifications.png)
 
 - `Confirmation checks` is the maximum number of confirmation checks to do before sending notifications. The more confirmation checks you use, the less « false positive » notifications you'll have. But the delay before sending a notification will be longer. *3* is a good value to be notified for with a decent delay.
 - `States` lets you choose the states on wich you want to be notified. Choosing `Ok` and `Critical` will send notifications for a `Ok` to `Criticial` state change but also for a `Critical` to `Ok` state change. 

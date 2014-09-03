@@ -43,3 +43,5 @@ share
 .vagrant
 
 Gemfile.lock
+
+help.sublime-workspace

@@ -26,7 +26,7 @@ From left to right:
 
 - The <i class="fa fa-backward"></i> icon takes you to the previous logs page based on the time window selected. See below for time window.
 - The <i class="fa fa-refresh"></i> icon is just to refresh the logs, like every screen.
-- The <i class="fa fa-trash-o"></i> icon makes it possible to purge logs, ersae them.
+- The <i class="fa fa-trash-o"></i> icon makes it possible to purge logs, erase them.
 - The <i class="fa fa-forward"></i> icon takes you to the next logs page based on the time window selected.
 
 Like all the graphs, you can choose the time window that is displayed.
@@ -42,7 +42,7 @@ You can choose from:
 
 ## Logs, events
 
-Logs are showing events but when does a event occur ?
+Logs are showing events but when does a event occur?
 
 - Changing state.
 - Notification.

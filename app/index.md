@@ -11,4 +11,7 @@ lead: 'You have reached the Check my Website documentation and help website.'
 
 <p>Une version français est en cours de préparation.</p>
 
+- [english](/en/)
+- [français](/fr/)
+
 </div>

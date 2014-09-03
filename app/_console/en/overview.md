@@ -27,9 +27,9 @@ In fact, the global overview is just these 6 badges located under the navigation
 ![Check my Website console global overview](/assets/img/fullsize/en/console/overview/global-overview.png)
 
 - The *green* one gives you the number of websites in [`OK` state](/en/terms-definitions/#ok-state).
-- The *yellow, orange* one gives you the number of websites in [`Warning` state](/en/terms-definitions/#warning-state).
+- The *orange* one gives you the number of websites in [`Warning` state](/en/terms-definitions/#warning-state).
 - The *red* one gives you the number of websites in [`Critical` state](/en/terms-definitions/#critical-state).
-- The *blue* one gives you the number of websites in [`Pending` state](/en/terms-definitions/#pending-state)).
+- The *blue* one gives you the number of websites in [`Pending` state](/en/terms-definitions/#pending-state).
 - The *grey* one gives you the number of websites in [`Unknown` state](/en/terms-definitions/#unknown-state).
 
 Clicking on one of these badges filter the [navigation](/en/console/menu-navigation/) by state, showing only websites in the clicked state.
@@ -38,11 +38,11 @@ Clicking on one of these badges filter the [navigation](/en/console/menu-navigat
 
 ## The instant availability
 
-The instant availablity gives you the mean [availability](/en/) of all the websites you monitor.
+The instant availablity gives you the mean [availability](/en/terms-definitions/#availability) of all the websites you monitor.
 
-![Check my Website console global overview](/assets/img/fullsize/en/console/overview/instant-availability.png)
+![Check my Website console instant availability](/assets/img/fullsize/en/console/overview/instant-availability.png)
 
-If all your websites are available like the example screen, this value is *100%*. You can go back sleeping !
+If all your websites are available like the example screen, this value is *100%*. You can go back sleeping!
 
 ## The top five
 

@@ -6,7 +6,7 @@ title:  "Website status page"
 date:   2014-06-12 08:00:00 +0100
 locale: "en"
 permalink: /en/console/website-status-page/
-lead: "The website status page gives you the opportunity to communicate on your website health to the public or to a private community"
+lead: "The website status page gives you the opportunity to communicate on your website health to the public or to a private community."
 weight: "009"
 ---
 
@@ -33,7 +33,7 @@ All these informations can be changed on the [settings page](/en/console/website
 
 ## Details
 
-This part of the status page gives you the state of the monitred website from the different locations.
+This part of the status page gives you the state of the monitored website from the different locations.
 
 ![Check my Website console status page details](/assets/img/fullsize/en/console/website-status/details.png)
 

@@ -22,7 +22,7 @@ From left to right:
 
 - The <i class="fa fa-backward"></i> icon takes you to the previous time window. See below for time window.
 - The <i class="fa fa-fw fa-hand-o-right"></i> icon indicates the scope of the graph. See below for explanation of the scope.
-- The <i class="fa fa-refresh"></i> icon is just to refresh the logs, like every screen.
+- The <i class="fa fa-refresh"></i> icon is just to refresh the graphs, like every screen.
 - The <i class="fa fa-forward"></i> icon takes you to the next time window.
 
 ### Time window
@@ -45,9 +45,9 @@ The graph sampling works in pair with the time window.
 
 ![Check my Website console website graph sampling](/assets/img/fullsize/en/console/website-metrics/graph-sampling.png)
 
-Choose auto to let the console choose automatically for you what a point on a graph represents. On this example screen, each point represents a minute value. You can pass your cursor on the graph to see each point details.
+Choose `auto` to let the console choose automatically for you what a point on a graph represents. On this example screen, each point represents a minute value.
 
-![Check my Website console website graph point detailsg](/assets/img/fullsize/en/console/website-metrics/graph-point-details.png)
+![Check my Website console website graph point details](/assets/img/fullsize/en/console/website-metrics/graph-point-details.png)
 
 You can pass your cursor on the graph to see each point details.
 

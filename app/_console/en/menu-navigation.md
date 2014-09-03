@@ -20,7 +20,7 @@ The menu bar is the first part shown from the top of the console.
 
 ![Check my Website console menu](/assets/img/fullsize/en/console/menu/menu.png)
 
-From left to right, you can find in that menu bar :
+From left to right, you can find in that menu bar:
 
 - The Chek my Website logo. Click on it to go to the [global overview](/en/console/overview/).
 - An <i class="fa fa-plus-square pointer"></i> icon. You can then add anytime a new website to monitor. The number of websites you can monitor depends on your [subscription level](http://www.checkmy.ws/en/pricing/) to the service.
@@ -47,7 +47,7 @@ It has five menu items:
 
 ### Settings
 
-The fourth menu item at the last right menu in the menu bar gives you the opportunity to modify the console to your likings, preferences.
+The third menu item at the last right menu in the menu bar gives you the opportunity to modify the console to your likings, preferences.
 
 ![Check my Website console settings](/assets/img/fullsize/en/console/menu/settings.png)
 
@@ -62,7 +62,6 @@ The fourth menu item at the last right menu in the menu bar gives you the opport
 When you click the `Reset` button, a confirmation dialog is displayed to aknowledge you that a token as been sent to the `Email` that you indicates.
 
 ![Check my Website console settings token sent](/assets/img/fullsize/en/console/menu/token-sent-dialog.png)
-
 
 ## The navigation
 

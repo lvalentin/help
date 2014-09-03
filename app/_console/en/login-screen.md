@@ -6,7 +6,7 @@ title:  "Login screen"
 date:   2014-06-12 08:00:00 +0100
 locale: "en"
 permalink: /en/console/login-screen/
-lead: "The login screen is where all begin. Here, you can create an account, access an account or reset a password"
+lead: "The login screen is where all begin. Here, you can create an account, access an account or reset a password."
 weight: "001"
 ---
 
@@ -26,9 +26,9 @@ To sign up, choose a `Login` and a `Password` and click `Sign up`. An `E-mail` f
 
 ![Check my Website console sign up email](/assets/img/fullsize/en/console/login/login-email.png)
 
-Once the combinaison of the `Login`, `Password` and `E-mail` are valid, you have immediate access to the console [welcome screen](/en/console/welcome/) and can start monitoring your first website.
+Once the combinaison of the `Login`, `Password` and `E-mail` is valid, you have immediate access to the console [welcome screen](/en/console/welcome/) and can start monitoring your first website.
 
-If the `Login` is already taken, an alert box like this one is displayed
+If the `Login` is already taken, an alert box like this one is displayed.
 
 ![Check my Website console invalid or already taken login](/assets/img/fullsize/en/console/login/login-invalid.png)
 
