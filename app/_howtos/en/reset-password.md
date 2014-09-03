@@ -6,7 +6,7 @@ title:  "How to reset your console account password"
 date:   2014-06-12 08:00:00 +0100
 locale: "en"
 permalink: /en/howtos/reset-password/
-lead: "How to reset your console account password in 3 easy steps"
+lead: "How to reset your console account password in 3 easy steps."
 ---
 
 On the login screen, click `Forgot password ?`.
@@ -33,5 +33,5 @@ Click `Change` and your password has been reset successfully.
 
 ![Check my Website console reset successfull](/assets/img/fullsize/en/howtos/reset-password/reset-successfull.png)
 
-You can now login with your brand new password. Happy monitoring !
+You can now login with your brand new password. Happy monitoring!
 

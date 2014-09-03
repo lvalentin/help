@@ -12,7 +12,7 @@ weight: "009"
 
 La page de statut est une page spéciale que vous pouvez partager avec vos collègues et les visiteurs de votre site web sur la façon dont celui-ci performe.
 
-![Check my Website console status page](/assets/img/fullsize/en/console/website-status/status.png)
+![Page de statut dans la console Check my Website](/assets/img/fullsize/en/console/website-status/status.png)
 
 Cette page est composée de quatre parties que nous allons détailler.
 
@@ -20,7 +20,7 @@ Cette page est composée de quatre parties que nous allons détailler.
 
 La partie générale montre des informations générales sur le site web représenté dans la page de statut.
 
-![Check my Website console status page general](/assets/img/fullsize/en/console/website-status/general.png)
+![Partie générale de la page de statut dans la console Check my Website](/assets/img/fullsize/en/console/website-status/general.png)
 
 - La date et l'heure d emise à jour de votre page de statut.
 - Les icônes de drapeaux pour traduire la page de statut dans d'autres langues.
@@ -35,7 +35,7 @@ Toutes ces informations peuvent être modifiées dans la [page des préférences
 
 Cette partie de la page de statut montre l'état du site depuis les différents lieux de contrôle.
 
-![Check my Website console status page details](/assets/img/fullsize/en/console/website-status/details.png)
+![Détails de la page de statut dans la console Check my Website](/assets/img/fullsize/en/console/website-status/details.png)
 
 Tout est `Ok` depuis tous les lieux de contrôle.
 
@@ -43,7 +43,7 @@ Tout est `Ok` depuis tous les lieux de contrôle.
 
 [Disponibilité](/fr/terms-definitions/#availability) et [temps de réponse](/en/terms-definitions/#response-time) du site web sont représentés sur ces graphes.
 
-![Check my Website console status page metrics](/assets/img/fullsize/en/console/website-status/metrics.png)
+![Métriques dans la page de statut dans la console Check my Website](/assets/img/fullsize/en/console/website-status/metrics.png)
 
 Vous pouvez choisir d'avoir les deux graphiques par jour, semaine et mois.
 
