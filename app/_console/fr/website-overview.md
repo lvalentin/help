@@ -71,7 +71,7 @@ Pour chaque information, vous avez une couleur qui peut varier à droite. Cetet 
 - Un badge orange indique des points à améliorer.
 - Un badge rouge indique que tout va mal ;) 
 
-Quelle ssont les informations données :
+Quelles sont les informations données :
 
 - Le nombre de [requêtes HTTP](/fr/terms-definitions/#http-request) faîte sopur recevoir la page. Moins, c'est mieux dans ce cas précis ! Dans cet exemple, *82* requêtes sont faîtes, ce qui est considéré un peu trop.
 - Le nombre d'`Éléments non trouvés` est le nombre de composants demandés qui n'ont pas été trouvés sur le serveur « erreur 404 ». Un zéro est la seule option viable pour un bon site web ! Voilà la signification du rouge dans l'exemple avec une valeur à *1*
@@ -102,7 +102,7 @@ Le dernier [temps de réponse](/fr/terms-definitions/#response-time) montre le d
 
 ## Temps de réponse moyen sur les dernières 24 heures
 
-Le temps de réponse moyen sur les denrières 24 heures donne le temps de réponse moyen observé depuis 24 heures depuis tous le slieux de contrôle, par exemple *45ms*.
+Le temps de réponse moyen sur les denrières 24 heures donne le temps de réponse moyen observé depuis 24 heures depuis tous les lieux de contrôle, par exemple *45ms*.
 
 ![Temps de réponse moyen sur les dernières 24 heures dans la console Check my Website](/assets/img/fullsize/en/console/website-overview/mean-time.png)
 
