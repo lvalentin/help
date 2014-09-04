@@ -40,7 +40,7 @@ Un message d'alerte vous prévient si l'`identifiant` est déjà pris.
 
 Renseignez les champs `Identifiant` et `Mot de passe` « Ceux choisis à l'enregistrement » et cliquez `Connexion`.
 
-Les icônes à gauche des deux champs changent en fonction de sinformations que vous saisissez.
+Les icônes à gauche des deux champs changent en fonction des informations que vous saisissez.
 
 - Une **couleur rouge** indique que `Identifiant` ou `Mot de passe` est invalide.
 - Une **couleur verte** indique que tout va bien.

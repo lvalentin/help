@@ -1,5 +1,5 @@
 ---
-question: "Est-ce que Check my Website travaillent avec des revendeurs partenaires?"
+question: "Est-ce que Check my Website travaille avec des revendeurs partenaires?"
 category: "sales"
 locale: "fr"
 ---

@@ -12,7 +12,7 @@
 
 - word: 'État OK'
   anchor: ok-state
-  definition: 'L’état Ok indique que tout va bien, fonctionnel, opérationnel.'
+  definition: 'L’état Ok indique que tout va bien au niveau fonctionnel, opérationnel.'
 
 - word: 'État attention'
   anchor: warning-state
@@ -48,7 +48,7 @@
 
 - word: 'Temps de réponse'
   anchor: response-time
-  definition: 'Le temps de réponse est le tmeps que prend un système à réagir à une sollicitation. Pour un site web, c’est le temps total pris par les opérations de réseaux, de DNS et de serveur HTTP.'
+  definition: 'Le temps de réponse est le temps que prend un système à réagir à une sollicitation. Pour un site web, c’est le temps total pris par les opérations de réseaux, de DNS et de serveur HTTP.'
 
 - word: 'Requête HTTP'
   anchor: http-request
@@ -64,4 +64,4 @@
 
 - word: 'Événements'
   anchor: event
-  definition: 'Un événement peut être défini comme la moindre occurence détectable ayant une signification pour la gestion IT. Un événements est typiquement une notification créé par le service IT ou un système de supervision'
+  definition: 'Un événement peut être défini comme la moindre occurence détectable ayant une signification pour la gestion IT. Un événement est typiquement une notification créée par le service IT ou un système de supervision.'

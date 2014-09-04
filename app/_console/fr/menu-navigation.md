@@ -25,7 +25,7 @@ Le menu est la première partie en haut de la console.
 De gauche à droite, vous pouvez trouver :
 
 - Le logo Check my Website. Cliquez dessus pour aller à la [vue globale](/fr/console/golbal-overview/).
-- L'icône <i class="fa fa-plus-square pointer"></i> permet d'ajouter à n'importe quel moment un nouveau site en supervision. Le nombre de sites que vou spouvez monitorer dépend du [type de souscription](http://www.checkmy.ws/fr/pricing/) au service.
+- L'icône <i class="fa fa-plus-square pointer"></i> permet d'ajouter à n'importe quel moment un nouveau site en supervision. Le nombre de sites que vous pouvez monitorer dépend du [type de souscription](http://www.checkmy.ws/fr/pricing/) au service.
 - L'icône <i class="fa fa-refresh"></i> permet de rafraîchir complètement la console.
 - L'icône <i class="fa fa-comments"></i> permet de rester en contact avec nous. Cliquez dessus pour nous adresser un message.
 
@@ -33,7 +33,7 @@ Cette page est affichée quand vous cliquez l'icône <i class="fa fa-comments"><
 
 ![Formulaire de contact de la console Check my Website](/assets/img/fullsize/en/console/menu/contact-form.png)
 
-Choisissez simpplement le type de message que vous souhaitez nous adresser, que ce soit une question, nous faire un retour ou tout autre chose. Complétez le message et cliquez sur `Envoyer`. Vous aurez toujours une réponse !
+Choisissez simplement le type de message que vous souhaitez nous adresser, que ce soit une question, nous faire un retour ou tout autre chose. Complétez le message et cliquez sur `Envoyer`. Vous aurez toujours une réponse !
 
 Le dernier menu à droite est certainement le plus important.
 
@@ -57,11 +57,11 @@ Le troisième article du dernier menu de droite de la barre des menus vous perme
 - Cliquez sur `Prénom` pour changer votre prénom.
 - Cliquez sur `Nom` pour changer votre nom de famille.
 - `Courriel` est l'adresse de messagerie que vous avez utilisé pour vous inscrire au service. Elle est utilisée pour vous envoyer des notifications et/ou pour du support. Cliquez dessus pour éditer.
-- `Mobile` contient votre numéro de télphone mobile pour vous envoyer des notifications par SMS.
+- `Mobile` contient votre numéro de téléphone mobile pour vous envoyer des notifications par SMS.
 - Le drapeau de `Langue` indique votre préférences de langue pour la console. Cliquez le drapeau pour en changer.
 - Le bouton `Réinitialiser` le `Mot de passe` permet de réinitialiser votre mot de passe si vous l'avez oublié par exemple. Suivez le [guide](/fr/howtos/reset-password) pour faire la manipulation.
 
-Quand vou scliquez sur le bouton `Réinitialiser`, un message de confirmation vous informe qu'un token a été envoyé à l'adresse de messagerie, `Courriel` que vous avez indiqué.
+Quand vous cliquez sur le bouton `Réinitialiser`, un message de confirmation vous informe qu'un token a été envoyé à l'adresse de messagerie, `Courriel` que vous avez indiqué.
 
 ![Token envoyé depuis les préférences de la console Check my Website](/assets/img/fullsize/en/console/menu/token-sent-dialog.png)
 

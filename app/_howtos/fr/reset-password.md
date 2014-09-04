@@ -15,7 +15,7 @@ Sur la page de connexion, clqiuez sur `Mot de passe oublié ?`.
 
 ![Mot de passe oublié dans la console Check my Website](/assets/img/fullsize/en/howtos/reset-password/reset-password.png)
 
-Saisissez simplement l'adresse électronique que vous avez utilisé à l'inscription, cliquez `Envoyer` et vous allez recevoir un courrie rélectronique contenant un token pour réinitialiser votre mot de passe.
+Saisissez simplement l'adresse électronique que vous avez utilisé à l'inscription, cliquez `Envoyer` et vous allez recevoir un courrier électronique contenant un token pour réinitialiser votre mot de passe.
 
 ![Check my Website console token e-mail](/assets/img/fullsize/en/howtos/reset-password/token-sent.png)
 
@@ -29,7 +29,7 @@ Suivez ce lien ou coller le token reçu dans la page de « réinitialisation » 
 
 ## Étape 3 : Cliquez changer
 
-Cliquez `Changer` et votre mot de passe est réinitilisé.
+Cliquez `Changer` et votre mot de passe est réinitialisé.
 
 ![Réinitialisation réussie dans la console Check my Website](/assets/img/fullsize/en/howtos/reset-password/reset-successfull.png)
 
