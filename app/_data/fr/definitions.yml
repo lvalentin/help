@@ -64,4 +64,4 @@
 
 - word: 'Événements'
   anchor: event
-  definition: 'Un événement peut être défini comme la moindre occurence détectable ayant une signification pour la gestion IT. Un événement est typiquement une notification créée par le service IT ou un système de supervision.'
+  definition: 'Un événement peut être défini comme la moindre occurrence détectable ayant une signification pour la gestion IT. Un événement est typiquement une notification créée par le service IT ou un système de supervision.'
