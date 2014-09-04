@@ -60,7 +60,7 @@
 
 - word: 'Agréement de niveau de services'
   anchor: sla
-  definition: 'A service-level agreement (SLA) est un agréement de services qui fait partie d’un contrat qui définit de façon formelle le service rendu. Dans la pratique, le terme de SLA fait référence à la disponibilité du service fixé par contrat.'
+  definition: 'Un service-level agreement (SLA) est un agréement de services faisant partie d’un contrat qui définit de façon formelle le service rendu. Dans la pratique, le terme de SLA fait référence à la disponibilité du service fixé par contrat.'
 
 - word: 'Événements'
   anchor: event
