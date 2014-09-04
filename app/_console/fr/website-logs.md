@@ -27,7 +27,7 @@ De gauche à droite :
 - L'icône <i class="fa fa-backward"></i> permet de naviguer dans les événements précédents en fonction de la période de temps choisie. Voir ci-dessous pour période de temps.
 - L'icône <i class="fa fa-refresh"></i> permet de rafraîchir la page comme n'importe laquelle autre page de la console.
 - L'icône <i class="fa fa-trash-o"></i> rend possible la purge des logs. Elles sont alors effacées.
-- L'icône <i class="fa fa-forward"></i> permet de naviguer dans les événements suivants en fonction de la périodfe de temps choisie.
+- L'icône <i class="fa fa-forward"></i> permet de naviguer dans les événements suivants en fonction de la période de temps choisie.
 
 Comme pour tout graphique, vous pouvez choisir la période de temps à afficher.
 
