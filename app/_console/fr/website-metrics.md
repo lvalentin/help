@@ -21,9 +21,9 @@ Vous pouvez naviguer dans les graphiques à partir de la barre située au dessus
 De gauche à droite :
 
 - L'icône <i class="fa fa-backward"></i> permet de naviguer dans les période de temps précédentes. Voir ci-dessous pour période de temps.
-- L'icône <i class="fa fa-fw fa-hand-o-right"></i> permet de préciser le contexte du graphique. Voir ci-dessous pour le sexplications de ce qu'est un contexte.
+- L'icône <i class="fa fa-fw fa-hand-o-right"></i> permet de préciser le contexte du graphique. Voir ci-dessous pour les explications de ce qu'est un contexte.
 - L'icône <i class="fa fa-refresh"></i> permet de rafarîchir la page comme n'importe laquelle autre page de la console.
-- L'icône <i class="fa fa-forward"></i> permet de naviguer dans les dans les période de temps suivantes.
+- L'icône <i class="fa fa-forward"></i> permet de naviguer dans les période de temps suivantes.
 
 ### Période de temps
 
@@ -52,7 +52,7 @@ Sur cet écran d'exemple, chaque point représente une valeur d'une minute.
 
 Vous pouvez passer le curseur sur le graphique pour voir en détail ce que chaque point représente.
 
-## graphique de temps de réponse
+## Graphique de temps de réponse
 
 Ce graphique représente le [temps de réponse](/fr/terms-definitions/#response-time) des différents lieux de contrôle pour un site web. Ce que vous voyez dépend de la période de temps choisie et de l'intervalle.
 
@@ -118,7 +118,7 @@ Ce site web n'a pas connu de problème pendant le dernier jour. Chaque point rep
 
 ## Graphique du temps de chargement de la page
 
-Ce graphique représente le temps de chargement d'une page pour la ériode de temps et l'intervalle choisi. Par tempsde chargement d'une page, nous entendons le tmeps que cela prend réellement à charger la page dans le navigateur. C'est ce temps que perçoivent vos utilisateurs, visiteurs.
+Ce graphique représente le temps de chargement d'une page pour la période de temps et l'intervalle choisi. Par temps de chargement d'une page, nous entendons le temps que cela prend réellement à charger la page dans le navigateur. C'est ce temps que perçoivent vos utilisateurs, visiteurs.
 
 ![Graphique du temps de chargement de la page de la console Check my Website](/assets/img/fullsize/en/console/website-metrics/page-load-time-graph.png)
 
