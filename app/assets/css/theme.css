@@ -13,3 +13,7 @@ figcaption {
   text-align: center;
   font-size: 0.7em;
 }
+
+dd {
+	margin-bottom: 1em;
+}
